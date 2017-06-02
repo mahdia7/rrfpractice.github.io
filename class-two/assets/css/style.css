@@ -36,6 +36,9 @@ a:hover { text-decoration: none }
 .header-area {
 	padding: 20px 0;
 }
+.navbar-inner {
+   box-shadow: none !important;
+}
 .main-menu ul {
   list-style: outside none none;
   margin: 0;
@@ -72,7 +75,7 @@ input[type=submit], button[type=submit] {
 .hero-area {
 	font-weight: 300;
 	padding: 150px 0;
-	border: 1px solid #f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
 }
 
 .hero-area h1 {
