@@ -30,7 +30,7 @@ h6 {
 body {
 	font-family: 'Khula', sans-serif;
 	font-size: 15px;
-	color: #888888;
+	color: #999;
 }
 a:hover { text-decoration: none }
 .header-area {
@@ -138,14 +138,15 @@ input[type=text], input[type=email], input[type=url], input[type=password], inpu
 .pdt-50 {
   padding-top: 50px;
 }
-.pdt-50 h2 {
+h2 {
 	font-size: 28px;
 	line-height: 37px;
 	margin-bottom: 20px;
 }
-.pdt-50 p {
+p {
 	font-size: 15px;
 	line-height: 1.8;
+	color: #999999;
 }
 .pdt-50 .boxed-btn {
 	margin-top: 20px;
