@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+	color: #373737;
+}
+body {
+	font-family: 'Khula', sans-serif;
+	font-size: 15px;
+	color: #888888;
+}
+a:hover { text-decoration: none }
+.header-area {
+	padding: 20px 0;
+}
+.navbar-inner {
+   box-shadow: none !important;
+}
+.main-menu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+}
+.main-menu li a {
+	display: block;
+	color: #888;
+	padding: 12px 15px;
+}
+.main-menu li a:hover {
+	color: #EF476F;
+}
+
+.boxed-btn, input[type=submit], button[type=submit]{
+	display: inline-block;
+	color: #fff;
+	background-color: #EF476F;
+	font-size: 14px;
+	padding: 13px 25px;
+	border-radius: 2px;
+	border: none;
+}
+input[type=submit], button[type=submit] {
+	padding: 12px 25px;
+	border-radius: 2px;
+	font-weight: 400;
+}
+.hero-area {
+	font-weight: 300;
+	padding: 150px 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.hero-area h1 {
+	font-size: 40px;
+	max-width: 440px;
+	margin-bottom: 20px;
+	padding-top: 25px;
+} 
+input[type=text], input[type=email], input[type=url], input[type=password], input[type=tel], textarea {
+	border: 1px solid #e6e6e6;
+	padding: 10px 15px;
+}
+
+.website-checker-form {
+	margin-top: 30px;
+}
+
+
+
+
+.section-padding {
+  padding: 115px 0;
+}
+.section-title {
+  margin-bottom: 90px;
+}
+.single-service-box {
+  border: 1px solid #e6e6e6;
+  padding: 25px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.service-icon {
+  font-size: 30px;
+  color: #5d5a5b;
+}
+.single-service-box h3 {
+  font-size: 20px;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+.service-readmore-btn {
+  color: #373737;
+  font-weight: 400;
+}
+.service-readmore-btn i.zmdi {
+  padding-left: 5px;
+  display: inline-block;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.single-service-box:hover {
+  border: 1px solid #EF476F;
+}
+.single-service-box:hover a.service-readmore-btn, .single-service-box:hover i.zmdi, .single-service-box:hover h3 {
+  color: #EF476F;
+}
+.pdt-50 {
+  padding-top: 50px;
+}
+.pdt-50 h2 {
+	font-size: 28px;
+	line-height: 37px;
+	margin-bottom: 20px;
+}
+.pdt-50 p {
+	font-size: 15px;
+	line-height: 1.8;
+}
+.boxed-btn {
+	margin-top: 20px;
+}
+
+.boxed-btn:hover,
+input[type=submit]:hover {
+	color: #373737;
+}
+
+
+
+
+
+
+
+
+
