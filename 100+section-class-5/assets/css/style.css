@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #a9a9a9;
+	font-size: 15px;
+	line-height: 1.7;
+}
+a:hover { text-decoration: none}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.section-bg-area {
+	position: relative;
+}
+
+.section-bg-area::before {
+	background-image: url(../img/workplace-1245776_1280.jpg);
+	background-position: -55px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #ddd;
+	border-right: 1px solid #EAEAEA !important;
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 45%;
+}
+.section-title h2 {
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #222;
+}
+
+.section-title span {
+	color: #17B4F9;
+}
+
+.panel-section .panel .panel-heading h4 a {
+	border: none !important;
+}
+
+.panel-section .panel .panel-heading h4 i.fa {
+	float: right;
+	line-height: 15px;
+	font-size: 22px;
+	display: none;
+} 
+
+.panel-section {
+	min-height: 395px;
+}
+
+
+.panel-section .panel .panel-heading h4 a[aria-expanded=true] i.fa.fa-angle-up,
+.panel-section .panel .panel-heading h4 a[aria-expanded=false] i.fa.fa-angle-down{
+	display: block;
+}
+.panel-section .panel .panel-heading h4 a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	position: relative;
+}
+
+.panel-section .panel-group .panel {
+	border-radius: 0;
+	box-shadow: 0 0 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.panel-section .panel-default .panel-heading {
+  background: none;
+}
+
+.panel-section .panel-group .panel-collapse .panel-body {
+	border-top: 0;
+	padding: 5px 20px 15px;
+}
+
+.panel-section {
+	padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
