@@ -50,7 +50,7 @@ a:hover { text-decoration: none }
 	left: 0;
 	top: 0;
 	width: 42%;
-	
+	box-shadow: 0 0 20px #777;
 }
 ul.check-icon {
 	list-style: none;
