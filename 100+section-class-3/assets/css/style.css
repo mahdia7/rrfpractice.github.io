@@ -55,7 +55,7 @@ a:hover { text-decoration: none }
 ul.check-icon {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 20px 0 0 0;
 	font-size: 18px;
 	color: #666;
 }
