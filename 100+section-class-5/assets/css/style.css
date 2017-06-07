@@ -49,7 +49,7 @@ a:hover { text-decoration: none}
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: #ddd;
-	border-right: 1px solid #EAEAEA !important;
+	box-shadow: 0 0 20px #888;
 	position: absolute;
 	content: '';
 	left: 0;
