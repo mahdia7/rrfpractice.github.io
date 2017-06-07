@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 /* Base CSS */
 .alignleft {
     float: left;
@@ -26,7 +27,7 @@ h6 {
     font-weight: 700;
 }
 body {
-
+	font-family: 'Lato', sans-serif;
 }
 a:hover { text-decoration: none }
 
