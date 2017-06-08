@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700')
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+}
+body {
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #3c3b3b;; 
+}
+a:hover { text-decoration: none }
+
+
+.owl-carousel .owl-item .single-staff-item img {
+	width: 164px;
+	height: 164px;
+	border-radius: 50%;
+}
+
+.section-padding {
+	padding: 60px 0;
+}
+
+.section-title {
+	margin-bottom: 60px;
+}
+
+.section-title h2 {
+	font-size: 22px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.section-title h2::before {
+	position: absolute;
+	content: '';
+	top: 36px;
+	left: 0;
+	height: 4px;
+	width: 65px;
+	background-color: #EBEBEB;
+	border-radius: 2px;
+}
+
+
+.section-title h2::after {
+	position: absolute;
+	content: '';
+	top: 36px;
+	left: 0;
+	height: 4px;
+	width: 56px;
+	background-color: #13ACF3;
+	border-radius: 2px;
+}
+
+.staff-meta h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.staff-meta p {
+	color: #888888;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	text-align: justify;
+}
+
+.staff-lists .owl-nav div {
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+	background: #e2e2e2;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 10px;
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+.staff-lists .owl-nav div:hover {
+	color: #fff;
+	background-color: #13ACF3;
+}
+
+.staff-lists .owl-nav {
+	top: -45px;
+	right: -30px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
