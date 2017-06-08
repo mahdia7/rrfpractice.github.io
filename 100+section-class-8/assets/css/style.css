@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	color: #333;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #a9a9a9;
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 60px 0;
+}
+.gray-bg {
+	background-color: #F9F9F9;
+}
+
+.service-bg-1 {background-image: url(../img/Business-insurance.jpg);}
+.service-bg-2 {background-image: url(../img/Boat-insurance.jpg);}
+.service-bg-3 {background-image: url(../img/life-insurance.jpg);}
+.service-bg-4 {background-image: url(../img/House-insurance.jpg);}
+
+.service-bg {
+	height: 200px;
+	background-color: #ddd;
+	background-position: center;
+	background-size: cover;
+}
+.section-title{
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.single-service {
+	background-color: #fff;
+	height: 420px;
+	transition: .3s;
+}
+.single-service:hover {
+	box-shadow: 0 0 20px #CCFFFF;
+	transform: scale(1.1)
+}
+.service-details {
+	padding: 20px 13px;;
+	line-height: 1.8;
+}
+
+.service-details h3 {
+	font-size: 18px;
+}
+.see-more-btn{
+	color: #44CF7F;
+	padding-left: 20px;
+	transition: .3s;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.see-more-btn:hover{
+	color: #fff;
+	padding: 10px 30px;
+	background-color: #44CF7F;
+	border-radius: 50px;
+	font-size: 12px;
+	margin-left: 20px;
+	font-weight: 700;
+	
+}
+
+
+
+
+
+
+
+
