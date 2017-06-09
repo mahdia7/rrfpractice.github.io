@@ -112,8 +112,7 @@ h2 {
 }
 .newsletter-form button {
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 34%;
 	border: 0;
 	padding: 10px;
 }

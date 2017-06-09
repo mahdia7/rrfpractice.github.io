@@ -5,7 +5,7 @@
 	padding-left: 65px;
 	text-transform: uppercase;
 }
-    
+  
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
@@ -14,6 +14,10 @@ nav.nav-area ul li {
 	padding-left: 71px;
 	text-transform: uppercase;
 }
+	.newsletter-form button {
+	right: 26%;
+	
+}  
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
@@ -34,6 +38,14 @@ nav.nav-area ul li {
 .footer-area .text-right {
 	text-align: center;
 }	
+	.newsletter-form button {
+	right: 8%;
+		bottom: 43px;
+	
+}  
+	.newsletter-form input[type="email"]{
+		width: 290px
+	}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -42,7 +54,10 @@ nav.nav-area ul li {
 	display: block;
 	padding: 10px 0;
 }
-
+.newsletter-form button {
+	right: 30%;
+	
+}  
 }
 
 @media only screen and (max-width: 480px) {
