@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+/* Base CSS */
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #fff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.header-top-area {
+	background-color: #218AE6;
+	padding: 15px 0;
+	font-size: 15px;
+}
+
+.header-top-area a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-top-area i.fa {
+	padding-left: 21px;
+}
+
+.header-area .menu-area li {
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-left: 30px;
+}
+
+.header-area .menu-area a {
+	color: #333;
+	transition: .3s;
+}
+
+.header-area .menu-area a:hover {
+	color: #218AE6;
+}
+
+.header-area {
+	padding: 25px 0;
+}
+
+.homepage-slides h2 {
+	font-size: 50px;
+	font-weight: 100;
+}
+
+a.boxed-btn {
+	color: #333;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #F9CF25;
+	padding: 13px 30px;
+	border-radius: 3px;
+	margin-top: 27px;
+	display: inline-block;
+	transition: .4s;
+}
+
+a.boxed-btn:hover {
+	color: #F9CF25;
+	background-color: #333;
+}
+
+.homepage-slides {
+	background-color: #218AE6;
+}
+
+.single-homepage-slide {
+	padding: 95px 0;
+}
+
+.boxed-btn i.fa {
+	padding-left: 6px;
+}
+
+.homepage-slides .owl-dots div {
+	height: 10px;
+	width: 10px;
+	background: #fff;
+	display: inline-block;
+	margin: 3px;
+	border-radius: 50%;
+}
+
+.homepage-slides .owl-dots div.active {
+	background-color: #F9CF25;
+}
+
+.homepage-slides .owl-dots {
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
