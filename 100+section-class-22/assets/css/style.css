@@ -1,0 +1,97 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+	padding: 60px 0;
+}
+
+
+.single-team-item {
+  margin-top: 50px;
+}
+.single-team-item img {
+  border: 2px solid #ddd;
+	border-radius: 2px;
+}
+.team-social-links {
+  background: #5BA939;
+}
+.team-social-links a i.fa {
+  color: #fff;
+  border: 1px solid #fff;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+	transition: .3s;
+}
+.team-social-links a:hover i.fa {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+.team-social-links {
+  text-align: center;
+  padding: 10px 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 2;
+  border-radius: 5px;
+}
+.single-team-item h4 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.single-team-item h4 span {
+  display: block;
+  font-size: 71%;
+  margin-top: 7px;
+  color: #5BA939;
+  font-weight: normal;
+}
+
+ul.team-social-links {
+  list-style: none;
+}
+ul.team-social-links li {
+  display: inline-block;
+}
+
+
+
+
+
+
