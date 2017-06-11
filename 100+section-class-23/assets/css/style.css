@@ -1,0 +1,124 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	color: #333;
+}
+body {
+	font-size: 16px;
+	color: #949494;
+	font-weight: 400;
+
+}
+h2 {
+	font-size: 30px;
+}
+a:hover { text-decoration: none }
+
+.service-bg-1 {background-image: url(../img/service-1.jpg);}
+.service-bg-2 {background-image: url(../img/service-2.jpg);}
+.service-bg-3 {background-image: url(../img/service-3.jpg);}
+
+
+
+.section-padding {
+  padding: 60px 0;
+}
+.single-service-item {
+  margin-top: 50px;
+  border: 1px solid #ddd;
+	transition: 0.5s;
+}
+.single-service-item:hover {
+	box-shadow: 0 0 10px #949494;
+}
+.service-item-bg {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-color: #ddd;
+  position: relative;
+}
+.service-item-bg:hover h3 {
+	box-shadow: 0 0 10px #F97230;
+}
+.service-item-bg h3 {
+  background: #F97230;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  padding: 12px 39px;
+  left: 8%;
+  bottom: -18px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  width: 85%;
+	transition: .5s;
+}
+.service-content {
+	padding: 50px 30px 30px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 15px;
+}
+.read-more-btn {
+  display: inline-block;
+  text-align: center;
+}
+
+.read-more-btn {
+	display: inline-block;
+	text-align: center;
+	margin-top: 30px;
+	color: #333;
+	font-weight: 700;
+	font-size: 16px;
+	transition: .6s;
+}
+
+
+.read-more-btn:hover i.fa {
+	padding-left: 5px;
+}
+
+
+.read-more-btn:hover {
+  color: #F97230;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
