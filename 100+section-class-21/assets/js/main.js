@@ -11,6 +11,8 @@
 			loop: true,
 			smartSpeed: 2000
 		});
+		
+		
 	});
 
 
