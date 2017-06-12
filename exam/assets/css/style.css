@@ -1,0 +1,116 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+	padding: 210px 0;
+}
+.header-area {
+  padding: 50px 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}
+.header-area h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+.header-area a {
+  font-size: 16px;
+  color: #6A6A6A;
+}
+.homepage-area {
+	position: relative;
+	background: linear-gradient(112deg, #94BBD7, #C858B7, #F8C2AD );
+}
+.homepage-area .container {
+	background-image: url(../img/cloud_PNG4.png) !important;
+}
+
+.homepage-area h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #333;
+}
+.homepage-area {
+  color: #6A6A6A;
+  font-size: 16px;
+	max-height: 640px;
+}
+.homepage-area a {
+  color: #6A6A6A;
+  font-weight: 700;
+  font-size: 17px;
+}
+.footer-area .social-icons a {
+	color: #fff;
+	background: #9c9c9c;
+	height: 26px;
+	width: 28px;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+.footer-area {
+	color: #6A6A6A;
+	padding: 20px 0;
+	border-top: 1px solid #efefef;
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	width: 100%;
+	z-index: 9;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
