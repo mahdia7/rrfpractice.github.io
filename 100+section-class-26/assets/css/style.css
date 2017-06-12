@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.white-box {
+  box-shadow: 0 0 10px #CDCDCD;
+  padding: 30px;
+}
+input:focus, textarea:focus, button:focus {
+  outline: none;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea {
+  background-color: #F9F9F9;
+  border: none;
+  padding: 15px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="password"], .contact-form input[type="tel"], .contact-form textarea {
+  width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact-form textarea {
+  height: 140px;
+  resize: none;
+}
+.white-box h4 {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+input[type=submit] {
+  border: 0;
+  color: #fff;
+  background: #52B0FB;
+  padding: 15px 30px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+.contact-form form input[placeholder], .contact-form form textarea[placeholder] {
+  color: #9c9c9c;
+}
+
+
+
+.blue-box {
+  background: #52B0FB;
+  min-height: 490px;
+	min-width: 360px;
+  padding: 30px;
+  color: #fff;
+  margin-left: 20px;	
+}
+.blue-box a {
+  color: #fff;
+}
+.blue-box h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.contact-info i.fa {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 20px
+}
+.contact-info {
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 30px;
+  line-height: 23px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.social-icons a {
+  display: inline-block;
+  color: #333;
+  background: #fff;
+  /*! padding: 10px 15px; */
+  border-radius: 50%;
+  box-shadow: 0 0 5px #808080;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: .4s;
+	margin-right: 10px; 
+}
+.social-icons a:hover {
+  color: #52B0FB;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
