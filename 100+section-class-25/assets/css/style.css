@@ -1,0 +1,147 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-size: 15px;
+}
+a:hover { text-decoration: none }
+
+.border-img-1 {background-image: url(../img/img1.jpg);}
+.border-img-2 {background-image: url(../img/img2.jpg);}
+.border-img-3 {background-image: url(../img/img3.jpg);}
+.img-bg {background-image: url(../img/bigFuture.jpg);}
+
+
+.border-img {
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #ddd;
+	height: 120px;
+	width: 100px;
+	position: relative;
+}
+
+.big-featured-img {
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #ddd;
+	height: 420px;
+	border: 1px solid #fff;
+	margin-left: 30px;
+}
+
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.single-feature-item {
+  margin-bottom: 30px;
+	color: #999999;
+}
+.single-feature-item h3 {
+	font-size: 18px;
+	margin-top: 30px;
+	color: #333;
+}
+.single-feature-item h3 {
+  border-bottom: 1px dashed #6AAF08;
+  padding-bottom: 20px;
+  margin: 10px 0;
+  
+	font-size: 18px;
+}
+.border-img:before {
+  position: absolute;
+  right: -6px;
+  bottom: -6px;
+  background: #6AAF08;
+  height: 100%;
+  width: 100%;
+  content: '';
+  z-index: -1;
+}
+.big-featured-img::before {
+	position: absolute;
+	content: '';
+	background-color: #6AAF08;
+	background-image: url(../img/dark-stripes.png);
+	height: 97%;
+	z-index: -1;
+	left: 35px;
+	top: 21px;
+	width: 88%;
+}
+.big-featured-img:after {
+  position: absolute;
+  content: '';
+  height: 99.5%;
+  width: 89.5%;
+  background: #333;
+  opacity: 0.2;
+}
+.heading-border span {
+	height: 4px;
+	width: 35px;
+	background-color: #6AAF08;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0 4px;
+}
+.heading-border span.black-border {
+	height: 4px;
+	width: 20px;
+	background-color: #333;
+}
+.heading-border {
+	margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
