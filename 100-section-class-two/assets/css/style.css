@@ -84,13 +84,14 @@ a:hover { text-decoration: none }
 	color: #fff;
 	padding: 10px 0;
 	margin-bottom: 50px;
+	resize: none;
 }
 
 .form-submit-btn button[type="submit"]{
 	background-color: #fff;
 	border: none;
 	color: #19B5FE;
-	padding: 15px 40px;
+	padding: 10px 30px;
 	border-radius: 3px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -98,7 +99,7 @@ a:hover { text-decoration: none }
 }
 
 .form-submit-btn button:hover {
-	background-color: #DDDDDD;
+	background-color: #333;
 }
 
 input[type="text"]:focus,
