@@ -1,0 +1,157 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 60px 0;
+}
+
+.project-bg-1 {background-image: url(../img/isotope.jpg);}
+.project-bg-2 {background-image: url(../img/img2.jpg);}
+.project-bg-3 {background-image: url(../img/img3.jpg);}
+.project-bg-4 {background-image: url(../img/img9.jpg);}
+.project-bg-5 {background-image: url(../img/img4.jpg);}
+.project-bg-6{background-image: url(../img/img5.jpg);}
+.project-bg-7 {background-image: url(../img/img6.jpg);}
+.project-bg-8 {background-image: url(../img/img7.jpg);}
+.project-bg-9 {background-image: url(../img/img8.jpg);}
+
+.single-project-item {
+	background-position: center center;
+	background-color: #ddd;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.row.projects-list .col-md-4:nth-child(2) .single-project-item,
+.row.projects-list .col-md-4:nth-child(4) .single-project-item,
+.row.projects-list .col-md-4:nth-child(5) .single-project-item {
+	height: 615px;
+}
+
+ul.project-titles {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.project-titles li {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 50px;
+	cursor: pointer;
+}
+ul.project-titles li.active {
+	color: #00BFA5;
+}
+.row.projects-list .col-md-4 {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+  padding-bottom: 15px;
+}
+.row.projects-list {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+
+.single-project-item .project-hover a {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  font-size: 20px;
+  color: #00BFA5;
+}
+.project-hover h4 {
+  text-transform: uppercase;
+  font-size: 17px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+	color: #fff;
+}
+.project-hover h4 span {
+  display: block;
+  font-size: 80%;
+  color: #00BFA5;
+  margin-top: 10px;
+	font-weight: 700;
+}
+.project-hover {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	opacity: 0;
+	transform: scaleY(0);
+	transition: .6s;
+	visibility: hidden;
+}
+
+.project-hover::after {
+	position: absolute;
+	content: '';
+	background: #000;
+	height: 100%;
+	width: 100%;
+	opacity: .7;
+	z-index: -1;
+}
+
+.single-project-item:hover .project-hover {
+	opacity: 1;
+	 visibility: visible;
+	z-index: 1;
+    transform: scaleY(1);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
