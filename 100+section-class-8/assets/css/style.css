@@ -64,7 +64,7 @@ a:hover { text-decoration: none }
 }
 .single-service:hover {
 	box-shadow: 0 0 20px #CCFFFF;
-	transform: scale(1.1)
+	transform: scale(1.02);
 }
 .service-details {
 	padding: 20px 13px;;
