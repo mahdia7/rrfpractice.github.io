@@ -4,9 +4,9 @@
     jQuery(document).ready(function ($) {
 		
 		
-		$('.projects-list li').on('click', function () {
+		$('.project-titles li').on('click', function () {
 			
-			$('.projects-list li').removeClass('active');
+			$('.project-titles li').removeClass('active');
 			$(this).addClass('active');
 			
 			var selector = $(this).attr('data-filter');
