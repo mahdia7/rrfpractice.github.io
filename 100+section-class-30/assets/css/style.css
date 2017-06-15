@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	color: #313131;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7b7b7b;
+	background-color: #efeff1;
+	line-height: 2;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+	padding: 80px 0 200px;
+}
+
+
+.gallery-content {
+  padding: 0 50px;
+}
+.view-more-btn {
+  color: #fff;
+  font-size: 11px;
+  background-color: #4752e9;
+  padding: 15px 40px;
+  border-radius: 44px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .8px;
+  font-family: "Montserrat",sans-serif;
+  margin-top: 40px;
+  overflow: hidden;
+	display: inline-block;
+}
+
+.view-more-btn:hover {
+	color: #fff;
+}
+
+.gallery-content h1 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	margin-bottom: 30px;
+}
+.subtitle {
+	margin: 0;
+	color: #878787;
+}
+
+
+.image-gallery img:nth-child(1) {
+  position: relative;
+  top: -50px;
+  left: 0;
+  width: 65%;
+  z-index: 1;
+}
+.image-gallery img:nth-child(2) {
+  position: absolute;
+  bottom: -120px;
+  left: 41%;
+  z-index: 2;
+  width: 57%;
+}
+.image-gallery img:nth-child(3) {
+  position: absolute;
+  left: -40px;
+  bottom: -170px;
+  z-index: 3;
+}
+
+.image-gallery {
+	position: relative;
+	height: 100%;
+	display: block;
+}
+
+.image-gallery img {
+	box-shadow: 0 0 20px #bdbaba;
+}
+
+
+
+
+
+
+
+
+
+
