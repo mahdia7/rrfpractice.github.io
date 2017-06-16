@@ -438,6 +438,10 @@ input[type=submit] {
   width: 100%;
   border-radius: 0;
   margin-top: 44px;
+	background-color: #2ECC71;
+}
+.single-price-wrapper .price-content .boxed-btn:hover {
+	background-color: #15AEF9;
 }
 .single-price-wrapper .price-header h4 {
   font-weight: 400;
