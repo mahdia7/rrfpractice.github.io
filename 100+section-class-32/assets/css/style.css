@@ -1,0 +1,199 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	font-family: 'Changa One', sans-serif;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #F2F3F8;
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+.promo-bg-1 {background-image: url(../img/promo-1.jpg);}
+.promo-bg-2 {background-image: url(../img/promo-2.jpg);}
+.promo-bg-3 {background-image: url(../img/promo-3.jpg);}
+
+a.single-promo-item {
+	background-position: center center;
+	background-size: cover;
+	background-color: #ddd;
+	height: 280px;
+	width: 100%;
+	position: relative;
+	display: block;
+	transition: .4s;
+}
+
+.promo-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  padding: 0 0 60px;
+  text-align: center;
+  font-size: 18px;
+  transition: .4s;
+}
+.promo-details h2 {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.single-promo-item:hover {
+  box-shadow: 0 0 10px #999;
+  transform: scale(1.04);
+}
+.single-promo-item:hover .promo-details {
+  padding-bottom: 80px;
+}
+#form{
+    padding: 3em 2em;
+    
+}
+#form h2,
+#form h3{
+    color: #fff;
+    border-bottom: 1px double #fff;
+}
+#form p{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+#form .input-group{
+    margin-bottom: 20px;
+    background-color: #ccc;
+}
+.form{
+    background-color: #000;
+    opacity: 0.6;
+    margin-top: 50px;
+    padding: 20px
+}
+#checkbox{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.form button{
+    background-color: #e74c3c;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 1;
+}
+.form span{
+    border-radius: 0;
+}
+.iframe{
+    height: 630px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: px;
+}
+.iframe iframe{
+    height: 500px;
+    width: 500px;
+}
+.iframe h1 {
+	text-align: center;
+}
+footer{
+    background-color: #616163;
+    opacity: 0.9;
+    height: 200px;
+	padding-top: 40px;
+}
+footer h2,
+footer h3{
+    color: #fff;
+}
+footer .social{
+    font-size: 40px;
+    color: #fff;
+}
+.scrollToTop {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	background: #EB8F87;
+	font-weight: bold;
+	text-decoration: none;
+	position: fixed;
+	bottom: 40px;
+	right: 25px;
+	border-radius: 50%;
+	display: none;
+}
+.scrollToTop i.fa {
+	color: #fff;
+	line-height: 45px;
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
