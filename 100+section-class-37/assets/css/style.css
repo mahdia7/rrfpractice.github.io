@@ -1,0 +1,125 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+.team-member {
+	background-image: url(../img/team1.jpg);
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #ddd;
+	height: 280px;
+	margin-bottom: 50px;
+}
+.team-bg-2 {background-image: url(../img/team2.jpg)}
+.team-bg-3 {background-image: url(../img/team3.jpg)}
+
+
+.col-md-4:nth-child(2) .team-member {
+  margin-top: 100px;
+}
+.section-title {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 36px;
+  margin-top: 80px;
+  color: #000;
+  letter-spacing: 3px;
+  text-align: center;
+  transform: rotate(-90deg);
+  width: 300px;
+  margin-left: -60px;
+}
+.section-title:before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 100px;
+  right: 50px;
+  top: -40px;
+  background: #ABABAB;
+  display: inline-block;
+}
+
+
+.team-content-box {
+  border: 1px solid #A1A1A1;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+}
+.member-details p {
+  font-size: 13px;
+  color: #5E5E5E;
+	font-weight: 400;
+}
+.member-details h4 {
+  margin-bottom: 15px;
+  display: inline-block;
+  background: #fff;
+	padding: 0 10px;
+}
+.member-details {
+  margin-top: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
