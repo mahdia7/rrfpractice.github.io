@@ -1,0 +1,119 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Montserrat:300,400');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+	font-family: 'Droid Serif', serif;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #ECEBF0;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-bg {
+	background: #79D4D9;
+	position: relative;
+}
+
+.section-img {
+	position: absolute;
+	bottom: 0;
+	right: -35px;
+}
+
+.section-padding {
+	padding: 60px 0;
+}
+
+.section-text {
+	color: #fff;
+	padding: 80px 0 140px 100px;
+	font-size: 18px;
+	line-height: 1.6;
+	max-width: 550px;
+	max-height: 750px;
+}
+
+.top-ticker-text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	position: relative;
+	margin-bottom: 45px;
+	padding-bottom: 15px;
+}
+
+.top-ticker-text:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	background: #fff;
+}
+
+.section-text h1 {
+	font-size: 60px;
+	font-weight: 400;
+	margin-bottom: 50px;
+	line-height: 1.2;
+}
+
+.boxed-btn {
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	background: #EDED31;
+	padding: 10px 30px;
+	border-radius: 50px;
+	box-shadow: 0 10px 30px #EDED31;
+	transition: .3s;
+	font-size: 13px;
+}
+
+.boxed-btn:hover {
+	color: #fff;
+	background: #333;
+	box-shadow: 0 0 10px #333;
+}
+
+.section-text .boxed-btn {
+	margin-top: 35px;
+}
