@@ -1,0 +1,173 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,400,700');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-padding {
+	padding: 60px 0;
+}
+
+.section-title h2 {
+	font-size: 27px;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+	font-weight: 700;
+}
+
+.single-product-item h4 {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'roboto', sans-serif;
+}
+
+.single-product-image {
+	display: table;
+	height: 330px;
+	width: 100%;
+	background: #ececec;
+	margin-bottom: 25px;
+	padding: 20px;
+	transition: .3s;
+	position: relative;
+}
+
+.single-product-image img {
+	max-width: 280px;
+	max-height: 300px;
+}
+
+.product-image-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+}
+
+.single-product-item p {
+	font-size: 35px;
+	font-family: 'oswald', sans-serif;
+	color: #E53239;
+	font-weight: 700;
+}
+
+.single-product-item {
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+	transition: .3s;
+}
+
+.single-product-item:after {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: url(../img/Weltkarte.png) no-repeat scroll center top #474747;
+	background-size: cover;
+	z-index: -1;
+	transition: .3s;
+	opacity: 0;
+	box-shadow: 0 10px 20px #777;
+}
+
+.product-hover-links {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	opacity: 0;
+	transition: .3s;
+	z-index: 2;
+	padding: 0 30px;
+	visibility: hidden;
+}
+
+.product-hover-links a {
+	color: #ccc;
+	font-size: 18px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 35px;
+	text-align: center;
+	transition: .3s;
+}
+
+.bordered-arrow {
+	border: 2px solid #F8454C;
+	color: #fff !important;
+	font-size: 16px !important;
+}
+.single-product-item:hover::after {
+	top: -10%;
+	height: 120%;
+	opacity: 1;
+}
+.single-product-item:hover .single-product-image {
+	background: none;
+}
+.single-product-item:hover h4 {
+	color: #fff !important;
+}
+.single-product-item:hover .product-hover-links {
+	top: -10px;
+	opacity: 1;
+	visibility: visible;
+}
+.product-hover-links a:hover {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
