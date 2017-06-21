@@ -1,0 +1,175 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.gradient-overlay-area {
+	background-image: url(../img/bg.jpg);
+	position: relative;
+	z-index: 1;
+}
+
+.gradient-overlay-area:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: #22146a;
+	background: #000a6d;
+	background: -moz-linear-gradient(-45deg, #000a6d 0%, #2354bc 42%, #9c61cd 66%, #dcb1c5 100%);
+	background: -webkit-linear-gradient(-45deg, #000a6d 0%, #2354bc 42%, #9c61cd 66%, #dcb1c5 100%);
+	background: linear-gradient(135deg, #000a6d 0%, #2354bc 42%, #9c61cd 66%, #dcb1c5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000a6d', endColorstr='#dcb1c5', GradientType=1);
+	z-index: -1;
+	opacity: .9;
+}
+
+.logo img {
+	max-width: 200px;
+	max-height: 102px;
+	padding-left: 17px;
+}
+
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	width: 70%;
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu li a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	padding: 10px 25px;
+	letter-spacing: 1px;
+	opacity: .5;
+	transition: .4s;
+}
+
+.header-area {
+	padding: 35px 0;
+	position: relative;
+}
+
+.main-menu li:hover a {
+	opacity: 1;
+}
+
+.header-area:after {
+	position: absolute;
+	content: '';
+	width: 96%;
+	height: 1px;
+	left: 2%;
+	bottom: 0;
+	background: #fff;
+	opacity: .1;
+}
+
+.hero-img {
+	position: absolute;
+	right: 45px;
+	bottom: 0;
+	max-height: 580px;
+	max-width: 400px;
+}
+
+.hero-text {
+	max-width: 500px;
+	color: #fff;
+	font-size: 17px;
+	line-height: 1.4;
+	padding-top: 130px;
+	padding-bottom: 100px;
+	padding-left: 60px
+}
+
+.hero-text h1 {
+	font-size: 50px;
+	font-weight: 300;
+	margin-bottom: 35px;
+}
+
+.hero-text p {
+	opacity: .6;
+}
+
+.bordered-btn {
+	border: 1px solid #fff;
+}
+
+.underline-btn {
+	text-decoration: underline;
+}
+
+.hero-buttons a {
+	color: #fff;
+	padding: 15px 30px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 50px;
+	margin-top: 30px;
+	transition: .4s;
+	margin-right: 20px;
+}
+
+.bordered-btn:hover {
+	color: #fff;
+}
+
+.hero-buttons a:hover {
+	background-color: #EBD3FF;
+	border: 1px solid #fff;
+}
