@@ -115,14 +115,15 @@ a:hover {
 
 .product-hover-links {
 	position: absolute;
-	left: 0;
+	left:0;
 	top: 0;
 	width: 100%;
 	opacity: 0;
 	transition: .3s;
 	z-index: 2;
-	padding: 0 30px;
 	visibility: hidden;
+	text-align: left;
+	padding: 0 20px;
 }
 
 .product-hover-links a {
