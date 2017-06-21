@@ -1,0 +1,242 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,400,700');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+	font-family: 'Merriweather', serif;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+.slide-bg-1 {
+	background-image: url(../img/bg.jpg);
+}
+.slide-bg-2 {
+	background-image: url(../img/bg3.jpg);
+}
+
+.slide-bg-3 {
+	background-image: url(../img/plate3.jpg);
+}
+
+.slide-bg-4 {
+	background-image: url(../img/pasta-on-a-white-plate.jpg);
+}
+
+.single-homepage-slide {
+	background-position: center right;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #ddd;
+	padding-top: 170px;
+	padding-bottom: 80px;
+	max-height: 700px;
+}
+
+.logo img {
+	max-width: 90px;
+	position: relative;
+}
+
+.logo-text {
+	position: absolute;
+	display: inline-block;
+	left: 30%;
+	top: 0;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 25px 30px;
+	margin: 0;
+}
+
+.logo-text span {
+	font-size: 87%;
+	display: block;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.contact-details {
+	display: inline-block;
+	position: relative;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-left: 30px;
+	margin-top: 23px;
+	font-weight: 300;
+	color: #333;
+}
+
+.contact-details i.fa {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	font-size: 22px;
+}
+
+.contact-details a {
+	color: #333;
+}
+
+.header-area {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 25px 0;
+	z-index: 99;
+}
+
+.slide-text-area {
+	position: relative;
+	z-index: 1;
+	font-size: 18px;
+	font-weight: 300;
+	padding-top: 60px;
+	padding-left: 80px;
+	padding-right: 120px;
+	padding-bottom: 75px;
+}
+
+.slide-text-area::before {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background: #fff;
+	z-index: -1;
+	opacity: .4;
+	left: 0;
+	top: 0;
+}
+
+.slide-text-area h2 {
+	font-size: 45px;
+	padding-bottom: 30px;
+	font-weight: 700;
+}
+
+.boxed-btn {
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 15px;
+	background: #ef800d;
+	padding: 15px 20px;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.slide-text-area .boxed-btn {
+	margin-top: 25px;
+}
+
+.homepage-slides .owl-nav div {
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	line-height: 50px;
+	opacity: 0;
+	font-size: 50px;
+	transition: .4s
+}
+
+.homepage-slides .owl-nav div.owl-prev {
+	left: 50px;
+}
+.homepage-slides .owl-nav div.owl-next {
+	right: 50px;
+}
+
+.homepage-slides:hover .owl-nav div {
+	opacity: .5;
+}
+.homepage-slides .owl-nav div:hover {
+	color: #EF800D;
+}
+.homepage-slides .owl-dots div {
+	background: #646464;
+	border-radius: 50%;
+	display: inline-block;
+	height: 13px;
+	margin: 5px;
+	width: 13px;
+}
+.homepage-slides .owl-dots {
+	bottom: 20px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.homepage-slides .owl-dots div.active {
+	background: #EF800D;
+}
+.homepage-slides .owl-dots div:hover {
+	background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
