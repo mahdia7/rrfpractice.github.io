@@ -100,7 +100,7 @@ a:hover {
 	position: relative;
 }
 
-.main-menu li:hover a {
+.main-menu li:hover a, .main-menu li.active a{
 	opacity: 1;
 }
 
