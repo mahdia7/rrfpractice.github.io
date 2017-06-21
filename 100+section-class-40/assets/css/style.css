@@ -1,0 +1,193 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-bg {
+	background-image: url(../img/clouds.jpg);
+	background-attachment: fixed;
+}
+
+.price-icon img {
+	max-width: 170px;
+	max-height: 140px;
+}
+
+.price-icon {
+	display: table;
+	height: 180px;
+	width: 100%;
+}
+
+.price-icon-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+}
+
+.price-table-box {
+	position: relative;
+	background: #fff;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.price-boxes {
+	box-shadow: 0 0 30px #005095;
+	overflow: hidden;
+}
+
+.price-table {
+	float: left;
+	width: 33.33333%;
+	min-height: 400px;
+	position: relative;
+}
+
+.price-table:after {
+	position: absolute;
+	content: '';
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 2px;
+	background: #4E9FD7;
+	opacity: .3;
+}
+
+.price-table:last-child:after {
+	display: none;
+}
+
+.price-table-box {
+	position: relative;
+	background: #fff;
+	color: #3FA0E2;
+	text-align: center;
+	padding: 30px 20px;
+}
+
+.price-table-box h2 {
+	text-transform: uppercase;
+	font-size: 28px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.price-table-box h2:after {
+	position: absolute;
+	left: 44%;
+	bottom: -5px;
+	width: 22px;
+	height: 2px;
+	background: #47A8EC;
+	content: '';
+}
+
+.amount span {
+	color: #FB5D6B;
+	font-size: 45px;
+	font-weight: 700;
+	position: relative;
+}
+
+.amount span:before {
+	position: absolute;
+	content: '$';
+	left: -17px;
+	top: -3px;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.amount span:after {
+	position: absolute;
+	content: '/mo';
+	font-size: 22px;
+	font-weight: 400;
+	bottom: 5px;
+	right: -39px;
+}
+
+.price-table-box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	padding-left: 37px;
+	margin-bottom: 20px;
+}
+
+.boxed-btn {
+	color: #fff;
+	background: #3DA0E4;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 11px 30px;
+	border-radius: 3px;
+	margin-left: 13px;
+	margin-top: 30px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.boxed-btn:hover,
+.boxed-btn.active:hover {
+	background: #888;
+	color: #fff;
+}
+
+.price-table-box ul li {
+	padding-bottom: 6px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.boxed-btn.active {
+	background-color: #FB5D6B;
+}
