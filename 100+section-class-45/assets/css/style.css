@@ -1,0 +1,159 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	color: #80807F;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+a {color: #2EB1FE}
+
+.section-padding {
+  padding: 80px 0;
+}
+.single-price-box {
+  margin-bottom: 50px;
+  border: 2px solid #F1F5F8;
+  text-align: center;
+  padding: 40px 30px 60px;
+	transition: .3s;
+}
+.single-price-box:hover {
+	box-shadow: 0 0 30px #ECECEB;
+}
+.single-price-box h4 {
+  font-size: 20px;
+  color: #80807F;
+  font-weight: 400;
+}
+.price-amount {
+  color: #2EB1FE;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 35px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #F1F5F8;
+}
+.price-amount span {
+  font-size: 14px;
+  color: #979797;
+  display: block;
+  opacity: .6;
+}
+.price-content ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  list-style: none;
+}
+.price-content li {
+  line-height: 1.6;
+  padding: 7px;
+  color: #80807F;
+  font-weight: 400;
+  font-size: 15px;
+}
+.boxed-btn {
+  background: #2EB1FE;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 17px 40px;
+  display: inlen-b;
+  border-radius: 5px;
+	transition: .3s;
+}
+.boxed-btn:hover {
+	background: #333;
+	color: #fff;
+}
+.single-price-box.active {
+	position: relative;
+	padding-top: 25px;
+}
+.single-price-box.active::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: -2px;
+	width: 100%;
+	height: 3px;
+	background: #5BB420;
+}
+
+.single-price-box.active h4 span {
+	display: block;
+	color: #5BB420;
+	font-size: 74%;
+	font-weight: 400;
+	margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
