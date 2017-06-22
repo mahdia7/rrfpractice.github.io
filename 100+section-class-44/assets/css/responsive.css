@@ -1,0 +1,63 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.logo {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.main-menu ul {
+		text-align: center;
+	}
+	.copyright-area {
+		position: relative;
+		text-align: center;
+	}
+	.copyright-area li {
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-top: 10px;
+	}
+	.copyright-area ul {
+		text-align: center
+	}
+	.welcome-area {
+		height: auto;
+	}
+	.hero-text {
+		padding-top: 169px;
+		text-align: center;
+	}
+	.hero-area h1 {
+		font-size: 37px;
+	}
+	.hero-area p {
+		font-size: 15px;
+	}
+	.email-area-wrapper {
+		text-align: center;
+		padding-bottom: 60px;
+	}
+	.email-area-wrapper input[type=email] {
+		margin-bottom: 20px;
+		width: 67%;
+		margin-left: 12px
+	}
+	.email-area-wrapper button[type="submit"] {
+		width: 66%;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
