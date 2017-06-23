@@ -1,0 +1,139 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Roboto:300,400,700');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #333;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-padding {
+	padding: 120px 0;
+	margin: 50px 0;
+}
+
+.testimonial-bg {
+	background-image: url(../img/bg.jpg);
+	background-color: #333;
+	background-position: center right;
+	position: relative;
+	z-index: 1;
+}
+
+.testimonial-bg::before {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: #333;
+	z-index: -1;
+	opacity: .4;
+}
+
+.user-avater img {
+	max-width: 100px;
+	border-radius: 50%;
+	width: 100%;
+	margin: 0 auto;
+	max-height: 100px;
+	margin-bottom: 20px;
+}
+
+.testimonial-content {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.single-testimonial-item h4 {
+	color: #8C8C8C;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 21px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+.single-testimonial-item h4 span {
+	display: block;
+	font-size: 80%;
+	margin-top: 7px;
+	font-weight: 400;
+}
+
+h4 {}
+
+.single-testimonial-item {
+	position: relative;
+	z-index: 1;
+	margin: 0 30px;
+}
+
+.testimonial-carousel {
+	position: relative;
+}
+
+.testimonial-carousel:before {
+	position: absolute;
+	content: "\f10d";
+	font-family: fontAwesome;
+	left: -40px;
+	top: 94px;
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.testimonial-carousel:after {
+	position: absolute;
+	content: "\f10e";
+	font-family: fontAwesome;
+	right: -32px;
+	bottom: 50px;
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	color: #fff;
+}
