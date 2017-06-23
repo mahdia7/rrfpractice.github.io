@@ -1,0 +1,169 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #737678;
+	font-size: 17px;
+	line-height: 1.7;
+}
+a:hover { text-decoration: none }
+
+
+.pricing-table {
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.single-pricing-box {
+  width: 33.3333%;
+  float: left;
+  box-shadow: 0 0 10px #DCDCDC;
+  position: relative;
+  z-index: 1;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.pricing-heading {
+  background: #F9F9F9;
+  color: #898888;
+  font-size: 16px;
+  padding: 40px;
+}
+.pricing-heading h3 {
+  color: #888;
+  font-weight: 400;
+  font-size: 30px;
+}
+.pricing-heading h1 {
+  font-size: 50px;
+  color: #333;
+  font-weight: 400;
+}
+.single-pricing-box {
+  border-radius: 7px;
+  background: #fff;
+  margin-top: 30px;
+}
+.pricing-content {
+  padding: 40px;
+}
+.pricing-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.pricing-btn {
+  color: #F91942;
+  border: 1px solid #F91942;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  transition: .3s;
+}
+.pricing-heading p {
+  margin: 0 45px 10px;
+}
+.active .pricing-heading {
+  background: #F91942;
+  color: #fff;
+}
+.active .pricing-heading h3, .active .pricing-heading h1 {
+  color: #fff;
+}
+.active .pricing-btn {
+  background: #F91942;
+  color: #fff;
+}
+.active .pricing-btn:hover {
+  background: #fff;
+  color: #F91942;
+}
+.pricing-btn:hover {
+  background: #F91942;
+  color: #fff;
+}
+.active .pricing-content {
+  padding: 50px 0;
+}
+.single-pricing-box.active {
+  position: relative;
+  z-index: 2;
+  margin-left: -.5%;
+  margin-right: -.5%;
+  width: 34.3333%;
+  margin-top: 0;
+  overflow: hidden
+    
+}
+
+.active .pricing-heading:after {
+  position: absolute;
+  content: 'Featured';
+  top: 33px;
+  right: -32px;
+  color: #F91942;
+  background: #fff;
+  padding: 2px 50px;
+  transform: rotate(45deg);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
