@@ -1,0 +1,208 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,900');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.listing-bg-1 {
+	background-image: url(../img/eat&drinks-1.jpg);
+}
+
+.listing-bg-2 {
+	background-image: url(../img/shops.jpg);
+}
+
+.listing-bg-3 {
+	background-image: url(../img/events.jpg);
+}
+
+.listing-bg-4 {
+	background-image: url(../img/group-fitness.jpg);
+}
+
+.listing-bg-5 {
+	background-image: url(../img/eats&drinks-2.jpg);
+}
+
+.listing-bg-6 {
+	background-image: url(../img/shops2.jpg);
+}
+
+.listing-bg-7 {
+	background-image: url(../img/event2.jpg);
+}
+
+.listing-bg-8 {
+	background-image: url(../img/gym.jpeg);
+}
+
+.single-listing-item {
+	position: relative;
+	z-index: 1;
+	background-position: center center;
+	background-size: cover;
+	background-color: #ddd;
+	background-repeat: no-repeat;
+	height: 350px;
+	border-radius: 4px;
+}
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.section-title {
+	margin-bottom: 50px;
+}
+
+.section-title h2 {
+	font-size: 35px;
+	font-weight: 400;
+	color: #333;
+}
+
+.section-title h4 {
+	color: #62727C;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.section-title h4 span {
+	color: #BF3646;
+}
+
+.listing-inner-content {
+	position: absolute;
+	left: 10%;
+	bottom: 30px;
+	color: #D1E1EB;
+	font-size: 20px;
+	font-weight: 400;
+	z-index: 1;
+}
+
+.listing-inner-content h3 {
+	font-weight: 500;
+	font-size: 24px;
+	color: #fff;
+}
+
+.listing-inner-content .boxed-btn {
+	color: #fff;
+	font-size: 17px;
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	border-radius: 50px;
+	margin-top: 10px;
+	display: inline-block;
+	font-weight: 500;
+	transition: .3s;
+}
+
+.listing-inner-content .boxed-btn:hover {
+	color: #111;
+	background: #A1A1A1;
+	opacity: .6;
+}
+
+.single-listing-item:after {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: #ffffff;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 18%, #ffffff 31%, #000000 70%, #000000 100%);
+	background: -webkit-linear-gradient(top, #ffffff 18%, #ffffff 31%, #000000 70%, #000000 100%);
+	background: linear-gradient(to bottom, #ffffff 18%, #ffffff 31%, #000000 70%, #000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0);
+	z-index: -1;
+	opacity: .2;
+}
+
+.listing-carousel .owl-stage-outer {
+	overflow: inherit;
+}
+
+.section-padding.overflow-x-hidden {
+	overflow-x: hidden;
+}
+
+.listing-carousel .owl-dots div {
+	height: 15px;
+	width: 15px;
+	border: 2px solid #bfbfbf;
+	display: inline-block;
+	background: #fff;
+	margin: 4px;
+	border-radius: 50%;
+}
+
+.listing-carousel .owl-dots div.active {
+	background: #bfbfbf;
+}
+
+.listing-carousel .owl-dots {
+	text-align: center;
+	margin-top: 30px
+}
+
+.listing-carousel:before, .listing-carousel:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 500%;
+  left: -500%;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+  opacity: .7;
+}
+.listing-carousel:after {
+  right: -500%;
+  left: auto;
+}
+.listing-carousel {
+  position: relative;
+}
