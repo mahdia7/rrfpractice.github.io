@@ -159,6 +159,7 @@ a:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0);
 	z-index: -1;
 	opacity: .2;
+	border-radius: 4px;
 }
 
 .listing-carousel .owl-stage-outer {
