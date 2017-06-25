@@ -9,7 +9,9 @@
         
         $('[data-toggle="tooltip"]').tooltip();
 
-
+		$('.video-play').magnificPopup({
+			type: 'video'
+		});
 
         
 
