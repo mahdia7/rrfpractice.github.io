@@ -1,0 +1,173 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.video-play {
+	display: block;
+	height: 450px;
+	background-position: center;
+	background-size: cover;
+	background-color: #333;
+	position: relative;
+	z-index: 1;
+	display: table;
+	width: 100%;
+}
+
+.video-play:before {
+	position: absolute;
+	content: '\f04b';
+	left: 50%;
+	top: 50%;
+	height: 80px;
+	width: 80px;
+	font-family: fontAwesome;
+	color: #fff;
+	background: #E91D38;
+	text-align: center;
+	font-size: 30px;
+	line-height: 80px;
+	padding-left: 7px;
+	border-radius: 50%;
+	margin-left: -40px;
+	margin-top: -40px;
+	z-index: -1;
+}
+
+.video-overlay {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	z-index: 1;
+	color: #fff;
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+
+.video-overlay:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #e91d38;
+	opacity: .8;
+	z-index: -1;
+	transform: scale(.7);
+	transition: .3s;
+}
+
+.bordered-plus {
+	display: inline-block;
+	border: 2px solid;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	line-height: 22px;
+	margin-bottom: 16px;
+	padding-left: 2px
+}
+
+.video-title span {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .5px
+}
+
+.video-title span:before,
+.video-title span:after {
+	position: absolute;
+	content: '';
+	height: 1px;
+	width: 25px;
+	left: -35px;
+	top: 7px;
+	background: #fff;
+}
+
+.video-title span {
+	position: relative;
+	z-index: 1;
+}
+
+.video-title span:after {
+	right: -35px;
+	left: auto;
+}
+
+.video-overlay h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+.video-overlay p {
+	opacity: .7;
+}
+
+p.video-title {
+	opacity: 1;
+}
+
+.video-overlay {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.video-play:hover .video-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+
+.video-play:hover .video-overlay:after {
+	transform: scale(1)
+}
