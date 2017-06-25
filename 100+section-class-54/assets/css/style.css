@@ -1,0 +1,395 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+
+/* service content area */
+
+.section-padding {
+	padding: 50px 0;
+	padding-top: 150px;
+}
+
+.service-bg-1 {
+	background-image: url(../img/img-1.jpg);
+}
+
+.service-bg-2 {
+	background-image: url(../img/img-2.jpg);
+}
+
+.service-bg-3 {
+	background-image: url(../img/img-3.jpg);
+}
+
+.service-bg {
+	background-position: center center;
+	background-size: cover;
+	background-color: #ddd;
+	background-repeat: no-repeat;
+	height: 280px;
+	position: relative;
+	border-radius: 5px 5px 0 0;
+	z-index: 1;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 20px;
+	color: #999;
+}
+
+.section-title h2 {
+	color: #333;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+
+.section-title h2 span {
+	color: #00C9CF;
+}
+
+.single-service-box h2 {
+	border: 1px solid #ccc;
+	border-top: 0;
+	padding: 30px;
+	padding-top: 55px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 400;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+
+.single-service-box:hover h2 {
+	color: #fff;
+	background: #25385B;
+}
+
+.single-service-box:hover .service-bg i {
+	background: #00C9CF;
+	border: 4px solid #25385B;
+}
+
+.single-service-box {
+	border-radius: 5px 5px 0 0;
+	display: block;
+	color: #333;
+}
+
+.single-service-box i {
+	position: absolute;
+	left: 50%;
+	bottom: -40px;
+	height: 80px;
+	width: 80px;
+	color: #fff;
+	background: #25385B;
+	border-radius: 50%;
+	border: 4px solid #eee;
+	margin-left: -40px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+
+.single-service-box i:before {
+	font-size: 40px;
+	line-height: 73px;
+	margin-left: 15px;
+}
+
+
+/* header area */
+
+.header-area {
+	background: #25385B;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	opacity: .9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.logo img {
+	max-width: 150px;
+	max-height: 100px;
+}
+
+
+/* main menu */
+
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-menu ul li {
+	display: inline-block;
+	padding: 30px 15px;
+	-webkit-transition: .3s;
+	transition: .3s;
+	position: relative;
+	margin: 0;
+}
+
+.main-menu ul li:hover {
+	background: #122548;
+}
+
+.main-menu ul li:hover>a {
+	opacity: .6;
+}
+
+.main-menu ul li a {
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.main-menu ul li a i.fa {
+	padding-left: 5px;
+	font-size: 17px;
+}
+
+
+/* dropdown first level */
+
+.main-menu ul li ul {
+	position: absolute;
+	top: 120px;
+	left: 0;
+	z-index: 2;
+	width: 250px;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	visibility: hidden;
+	-webkit-transition: .3s;
+	transition: .3s;
+	text-align: left;
+}
+
+.main-menu ul li ul li {
+	background: #25385B;
+	opacity: .9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.main-menu ul li ul.sub-1:before {
+	position: absolute;
+	left: 65px;
+	top: -15px;
+	width: 0;
+	height: 0;
+	content: '';
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid #25385B;
+	opacity: .9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.main-menu ul li ul li {
+	display: block;
+	padding: 12px 25px;
+}
+
+.main-menu ul li ul.sub-1 li:first-child {
+	padding-top: 20px;
+	border-radius: 10px 10px 0 0;
+}
+
+.main-menu ul li ul.sub-1 li:last-child {
+	padding-bottom: 20px;
+	border-radius: 0 0 10px 10px;
+}
+
+.main-menu li:hover ul.sub-1 {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	visibility: visible;
+	top: 95px;
+}
+
+.sub-2 {
+	width: 320px;
+}
+
+.main-menu li:hover ul.sub-3 {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1)
+}
+
+.main-menu li ul.sub-3 {
+	-webkit-transition: .3s;
+	transition: .3s;
+	top: 80px;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	width: 330px;
+
+}
+
+.main-menu li:hover ul.sub-2 {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	visibility: visible;
+	left: 0;
+}
+
+.main-menu li ul.sub-2 {
+	top: 80px;
+	-webkit-transition: .3s;
+	transition: .3s;
+	left: 30px;
+}
+
+.main-menu ul li:hover>ul li a {
+	opacity: 1;
+}
+
+.main-menu ul ul.sub-1 li:hover ul {
+	top: 0;
+	left: -265px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.main-menu ul ul.sub-1 li ul {
+	top: 0;
+	left: -250px;
+}
+.main-menu ul ul.sub-3 li ul {
+	top: 0;
+	left: -250px;
+	transform: scaleX(0)
+}
+.main-menu ul ul.sub-3 li:hover ul {
+	opacity: 1;
+	visibility: visible;
+	transform: scaleX(1);
+}
+.main-menu ul ul.sub-1 li ul:after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 15px solid #25385B;
+	border-bottom: 10px solid transparent;
+	opacity: .9;
+	right: -15px;
+	top: 10px;
+}
+.main-menu ul ul li a i.fa {
+	padding-right: 10px;
+	margin-left: 0;
+}
+.main-menu ul ul li:hover {
+	padding-left: 30px;
+}
+
+.main-menu ul ul.sub-1 li:hover ul ul{
+	opacity: 0;
+	visibility: hidden;
+}
+
+.main-menu ul ul.sub-1 li:hover ul li:hover ul {
+	opacity: 1;
+	visibility: visible;
+}
+.main-menu ul ul.sub-1 li:hover ul li:hover ul ul {
+	opacity: 0;
+	visibility: hidden;
+	width: 200px;
+	left: -215px;
+}
+.main-menu ul ul.sub-1 li:hover ul li:hover ul li:hover ul {
+	opacity: 1;
+	visibility: visible;
+}
+
+.main-menu ul ul.sub-1 li:hover ul li:hover ul li:hover ul ul {
+	opacity: 0;
+	visibility: hidden;
+	left: 215px;
+}
+.main-menu ul ul.sub-1 li:hover ul li:hover ul li:hover ul li:hover ul {
+	opacity: 1;
+	visibility: visible;
+}
+
+.main-menu ul ul.sub-1 li:hover ul li:hover ul li:hover ul ul:before {
+	position: absolute;
+	left: -15px;
+	top: 15px;
+	width: 0;
+	height: 0;
+	content: '';
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 15px solid #25385B;
+	opacity: .9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+.main-menu ul ul.sub-1 li:hover ul li:hover ul li:hover ul ul:after {
+	display: none;
+}
+
+
+
+
+
