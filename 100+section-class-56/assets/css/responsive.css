@@ -1,0 +1,115 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hero-text h2 {
+		font-size: 35px;
+	}
+	.hero-text p {
+		font-size: 15px;
+	}
+	.theme-2 .main-menu ul {
+		width: 500px;
+		text-align: left;
+		margin-top: 6px;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.hero-text h2 {
+		font-size: 35px;
+	}
+	.hero-text p {
+		font-size: 15px;
+	}
+	.logo{
+		text-align: center;
+		margin-bottom: 20px
+	}
+	.main-menu ul {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.hero-text {
+		text-align: center;
+		font-size: 16px;
+	}
+	
+	.hero-text h2 {
+		text-align: center;
+		font-size: 30px
+	}
+	
+	.footer-area {
+		text-align: center;
+		position: relative;
+	}
+	.social-links {
+		text-align: center;
+	}
+	
+	.hero-text {
+		padding: 0 50px 50px;
+	}
+	.header-area {
+		position: relative;
+	}
+	body.theme-1 {
+		height: auto;
+		background-attachment: fixed;
+	}
+	
+	
+	
+	.theme-2 .hero-text h2 {
+		font-size: 35px;
+	}
+	.theme-2 .hero-text p {
+		font-size: 15px;
+	}
+	
+	.theme-2 .logo{
+		text-align: center;
+		margin-bottom: 20px
+	}
+	.theme-2 .main-menu ul {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.theme-2 .hero-text {
+		text-align: center;
+		font-size: 16px;
+	}
+	
+	.theme-2 .hero-text h2 {
+		text-align: center;
+		font-size: 30px
+	}
+	
+	.theme-2 .footer-area {
+		text-align: center;
+		position: relative;
+	}
+	.theme-2 .social-links {
+		text-align: center;
+	}
+	
+	.theme-2 .hero-text {
+		padding: 0 50px 50px;
+	}
+	.theme-2 .header-area {
+		position: relative;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
