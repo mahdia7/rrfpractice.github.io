@@ -27,22 +27,85 @@
 					<div id="myGoogleMap" style="width:100%;height:500px;"></div>
 
 					<script>
-						function myMap() {
-							var myCenter = new google.maps.LatLng(51.508742, -0.120850);
+						function myGoogleMap() {
 							var mapCanvas = document.getElementById("myGoogleMap");
+							var mapCenter = new google.maps.LatLng(23.739568, 90.4128583);
 							var mapOptions = {
 								center: myCenter,
-								zoom: 5
+								scrollwheel: false,
+								zoom: 10,
+								styles: [{
+										elementType: 'geometry',
+										stylers: [{
+											color: '#ffffff'
+										}]
+									},
+
+									{
+										featureType: 'road',
+										elementType: 'geometry',
+										stylers: [{
+											color: '#cccccc'
+										}]
+									},
+									{
+										featureType: 'road',
+										elementType: 'labels.text.fill',
+										stylers: [{
+											color: '#4c4c4c'
+										}]
+									},
+									{
+										featureType: 'road.highway',
+										elementType: 'geometry',
+										stylers: [{
+											color: '#EDEDED'
+										}]
+									},
+									{
+										featureType: 'water',
+										elementType: 'geometry',
+										stylers: [{
+											color: '#e9e9e9'
+										}]
+									},
+									{
+										featureType: 'poi',
+										elementType: 'labels.text.fill',
+										stylers: [{
+											color: '#000'
+										}]
+									},
+									{
+										featureType: 'water',
+										elementType: 'geometry',
+										stylers: [{
+											color: '#CECECE'
+										}]
+									},
+									{
+										featureType: "road.arterial",
+										elementType: "geometry",
+										stylers: [{
+											color: "#ffffff"
+										}]
+									},
+									{
+										elementType: "labels.icon",
+										stylers: [{
+											"visibility": "off"
+										}]
+									}
+								]
 							};
 							var map = new google.maps.Map(mapCanvas, mapOptions);
-							var marker = new google.maps.Marker({
-								position: myCenter
-							});
+							
+							var marker = new google.maps.Marker({position: mapCenter});
+
 							marker.setMap(myGoogleMap);
 						}
 
 					</script>
-
 
 					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsunBtf-sjdYIAZAsgcINGka-Piqvj0xQ&callback=myGoogleMap"></script>
 				</div>
