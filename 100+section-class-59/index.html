@@ -28,7 +28,8 @@
 
 					<script>
 						function myGoogleMap() {
-							var myCenter = new google.maps.LatLng(23.739568, 90.4128583);
+							var mapCanvas = document.getElementById("myGoogleMap");
+							var mapCenter = new google.maps.LatLng(23.739568, 90.4128583);
 							var mapOptions = {
 								center: myCenter,
 								scrollwheel: false,
@@ -97,9 +98,9 @@
 									}
 								]
 							};
-							var map = new google.maps.Map(document.getElementById("myGoogleMap"), mapOptions);
+							var map = new google.maps.Map(mapCanvas, mapOptions);
 							var marker = new google.maps.Marker({
-								position: myCenter,
+								position: mapCenter,
 								animation: google.maps.Animation.BOUNCE
 							});
 
