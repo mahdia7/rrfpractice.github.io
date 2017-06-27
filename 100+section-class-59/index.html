@@ -10,6 +10,7 @@
 
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/animate.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="assets/css/responsive.css" rel="stylesheet">
 
@@ -99,10 +100,13 @@
 								]
 							};
 							var map = new google.maps.Map(mapCanvas, mapOptions);
-							
-							var marker = new google.maps.Marker({position: mapCenter});
 
-							marker.setMap(myGoogleMap);
+							var marker = new google.maps.Marker({
+								position: mapCenter,
+								animation: google.maps.Animation.BOUNCE
+							});
+
+							marker.setMap(map);
 						}
 
 					</script>
