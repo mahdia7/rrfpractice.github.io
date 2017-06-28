@@ -1,0 +1,95 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {font-family: 'Raleway', sans-serif;}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-padding {
+	padding: 40px 0;
+}
+
+.service-list {
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+
+.single-service-box {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 13% 9%;
+	color: #535353;
+	line-height: 1.7;
+	font-size: 15px;
+	transition: .4s;
+}
+
+.service-list .col-md-4 {
+	padding: 0;
+}
+
+.service-list .row {
+	margin: 0;
+}
+
+.single-service-box p {
+	margin-bottom: 0;
+}
+
+.single-service-box h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.single-service-box i.fa {
+	font-size: 40px;
+	color: #ddd;
+	display: inline-block;
+	padding: 20px;
+	padding-bottom: 25px;
+	transition: .4s;
+}
+
+.single-service-box:hover {
+	box-shadow: 0 31px 80px #9c9c9c;
+}
+
+.single-service-box:hover i.fa {
+	color: #CD2122;
+}
