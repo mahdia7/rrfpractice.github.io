@@ -158,6 +158,10 @@
 	.menu-trigger {
 		display: block
 	}
+	.full-hero-area-bg:before,
+	.service-area-bg:before{
+		background-attachment: fixed;
+	}
 }
 
 
