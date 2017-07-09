@@ -57,7 +57,12 @@ body {
 .case-bg-5 {
 	background-image: url(../img/case-1.5.jpg);
 }
-
+.case-bg-6{
+	background-image: url(../img/case-1.6.jpg);
+}
+.case-bg-7 {
+	background-image: url(../img/case-1.7.jpg);
+}
 .single-case-wrapper {
 	background-color: #06D59F;
 }

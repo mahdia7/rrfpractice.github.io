@@ -166,7 +166,7 @@ textarea {
 }
 
 .shadow-img {
-	box-shadow: 0 0 10px #e6e6e6;
+	box-shadow: 0 7px 20px #e6e6e6;
 }
 
 
@@ -359,6 +359,30 @@ textarea {
 
 .breadcroumb-bg-3 {
 	background-image: url(../img/service-details.jpg);
+}
+
+.breadcroumb-bg-4 {
+	background-image: url(../img/case-bg-1.jpg);
+}
+
+.breadcroumb-bg-5 {
+	background-image: url(../img/case-bg-2.jpg);
+}
+
+.breadcroumb-bg-6 {
+	background-image: url(../img/case-bg-3.jpg);
+}
+
+.breadcroumb-bg-7 {
+	background-image: url(../img/blog-bg-1.jpg);
+}
+
+.breadcroumb-bg-8 {
+	background-image: url(../img/blog-post-bg.jpg);
+}
+
+.breadcroumb-bg-4 .breadcroumb-title h3 {
+	font-weight: 400;
 }
 
 .breadcroumb-area {
@@ -919,16 +943,32 @@ textarea {
 .feature-text {
 	padding-left: 70px;
 }
+
+.marketing-content {
+	padding-left: 50px;
+}
+
 .marketing-content p {
 	margin-bottom: 30px;
 }
+
 .marketing-bg {
 	background-image: url(../img/marketing-img.jpg);
 	background-size: cover;
 	background-position: center;
 	background-color: #ddd;
-	height: 400px;
+	height: 500px;
 }
+
+.marketing-bg-1 {
+	background-image: url(../img/marketing-img-1.jpg);
+}
+
+.marketing-bg-2 {
+	background-image: url(../img/marketing-img-2.jpg);
+}
+
+
 /*========================
 	Case Studies CSS 
 =========================*/
@@ -1103,6 +1143,11 @@ textarea {
 	opacity: 1;
 	visibility: visible;
 	transform: scaleX(1);
+}
+
+.single-case-study.case-theme-1 {
+	margin-bottom: 20px;
+	width: 270px;
 }
 
 
@@ -1665,6 +1710,30 @@ p.price-count {
 	background-image: url(../img/blog-img-3.jpg);
 }
 
+.blog-bg-4 {
+	background-image: url(../img/blog-img-4.jpg);
+}
+
+.blog-bg-5 {
+	background-image: url(../img/blog-img-5.jpg);
+}
+
+.blog-bg-6 {
+	background-image: url(../img/blog-img-6.jpg);
+}
+
+.blog-bg-7 {
+	background-image: url(../img/blog-img-7.jpg);
+}
+
+.blog-bg-8 {
+	background-image: url(../img/blog-img-8.jpg);
+}
+
+.blog-bg-9 {
+	background-image: url(../img/blog-img-9.jpg);
+}
+
 .theme-3 .blog-wrapper {
 	background-color: #ddd;
 	background-size: cover;
@@ -1675,7 +1744,9 @@ p.price-count {
 
 .theme-3 .blog-content {
 	padding: 40px 20px;
-	box-shadow: 0 2px 5px #f5f5f5;
+	box-shadow: 0 2px 5px #e1e1e1;
+	margin: 15px 0;
+	display: block;
 }
 
 .theme-3 .blog-meta {
@@ -1685,10 +1756,11 @@ p.price-count {
 .theme-3 .blog-content h3 {
 	font-size: 18px;
 	line-height: 1.5;
+	font-weight: 400;
 }
 
 .theme-3 .blog-content p {
-	line-height: 1.9;
+	line-height: 1.7;
 	font-size: 15px;
 }
 
@@ -1700,6 +1772,75 @@ p.price-count {
 	transition: .4s;
 	color: #A6A6A6;
 	text-decoration: none;
+}
+
+.entry-content p {
+	margin-bottom: 30px;
+}
+
+.entry-content h3, .entry-content h4 {
+	font-size: 22px;
+}
+.entry-content h4 {font-weight: 400}
+.social-share-box a {
+	color: #fff;
+	margin: 8px;
+	padding: 10px 20px 8px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.social-share-box a.facebook {
+	background: #275BAA;
+}
+
+.social-share-box a.twitter {
+	background: #28C8F0;
+}
+
+.social-share-box a.pinterest {
+	background: #D6061E;
+}
+
+.social-share-box {
+	border-top: 1px solid #e1e1e1;
+	margin-top: 20px;
+	padding: 20px 0;
+}
+
+.author-box {
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 20px 0;
+	margin-bottom: 30px;
+}
+
+.author-box p strong {
+	color: #333;
+}
+
+.author-box img {
+	margin-top: 10px;
+	border-radius: 50%;
+	max-width: 120px;
+}
+
+.comments-section h3 {
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.comment-form input[type=text],
+.comment-form input[type=email],
+textarea {
+	width: 100%;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.comments-section textarea {
+	height: 150px;
 }
 
 
@@ -1741,6 +1882,7 @@ p.price-count {
 
 .footer-area h4 {
 	font-size: 20px;
+	font-weight: 400;
 }
 
 .footer-area li {
