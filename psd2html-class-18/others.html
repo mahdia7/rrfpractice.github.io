@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Case study and blog</title>
+
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.section-padding {padding: 20px 0;}
+		a:hover {text-decoration: none}
+		.case-box:hover p {color: #21AB95; opacity: 1;}
+		.case-box:hover {box-shadow: 10px 10px 20px #99B8D2;}
+		.case-box {
+			height: 580px;
+			background-position: center top;
+			background-size: cover;
+			position: relative;
+			z-index: 1;
+			transition: .3s;
+		}
+		.case-box p {
+			font-size: 31px;
+			text-transform: uppercase;
+			padding: 250px 0 0 60px;
+			text-decoration: none;
+			opacity: 0;
+			transition: .3s;
+		}
+		.case-bg-1:before, .case-bg-2:before {
+			position: absolute;
+			content: '';
+			height: 100%;
+			width: 100%;
+			left: 0;
+			top: 0;
+			background: #4C6B85;
+			color: #fff;
+			z-index: -1;
+			opacity: 0;
+			transition: .3s;
+		}
+		.case-bg-1 {
+			background-image: url(assets/img/13.About_us.jpg);
+			position: relative;
+			z-index: 1;
+		}
+		.service-bg-1 {
+			background-image: url(assets/img/16.Team.jpg);
+			position: relative;
+			z-index: 1;
+		}
+		
+		.case-bg-2 {
+			background-image: url(assets/img/17.Pricing_Tables.jpg);
+			position: relative;
+			z-index: 1;
+		}
+		.case-bg-4 {
+			background-image: url(assets/img/19.FAQ.jpg);
+			position: relative;
+			z-index: 1;
+		}
+		a:hover .service-bg-1:before, a:hover .service-bg-2:before {opacity: .4}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="full-area section-padding">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-3">
+					<a href="case-study-details.html" target="_blank">
+						<div class="case-box service-bg-1"><p>About us</p></div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="blog.html" target="_blank">
+						<div class="case-box case-bg-1"><p>Team</p></div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="blog-single.html" target="_blank">
+						<div class="case-box case-bg-2"><p>Pricing</p></div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="blog-single.html" target="_blank">
+						<div class="case-box case-bg-4"><p>Faq</p></div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

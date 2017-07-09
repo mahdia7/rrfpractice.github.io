@@ -2197,3 +2197,40 @@ textarea:focus {
 .contact-details a {
   color: #999;
 }
+
+
+.gm-style .gm-style-iw {
+  background: #06D6A0;
+}
+
+#iw_container {
+  width: 400px;
+  padding: 5px 30px;
+}
+.iw_title h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700 !important;
+  margin-bottom: 5px;
+}
+.iw_title h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.iw_content {
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+.iw_content p {
+  display: inline-block;
+  padding-right: 30px;
+  color: #fff;
+   margin-bottom: 10px;
+}
+
+.iw_title {
+  margin-top: 25px;
+}
