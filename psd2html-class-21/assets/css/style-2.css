@@ -1,0 +1,51 @@
+.boxed-btn,
+input[type=submit],
+button[type=submit] {
+	background-color: #06D6A0;
+	transition: .3s;
+}
+.boxed-btn:hover {
+	background-color: #289FF9;
+	color: #fff;
+}
+.main-menu.theme-2 ul li ul {box-shadow: 4px 8px 13px #888888;}
+.main-menu.theme-2 ul li:hover li:hover > a:hover {
+	color: #fff !important;
+}
+.main-menu.theme-2 a:hover {
+	color: #06D6A0 !important;
+}
+.main-menu.theme-2 a {
+	color: #999;
+	transition: .3s;
+}
+
+.main-menu.theme-2 ul li:hover>a {
+	color: #06D6A0
+}
+.main-menu.theme-2 ul li:hover li:hover {
+	background: #06D6A0;
+}
+
+.main-menu.theme-2 ul li:hover li:hover>a {
+	color: #fff;
+}
+
+.form-input-area input[type=submit]:hover,
+button[type=submit]:hover {
+	color: #fff;
+	background-color: #289FF9;
+}
+.testimonial-content p{
+	font-size: 16px !important;
+	line-height: 1.8;
+	margin-bottom: 40px;
+}
+
+.header-absolute {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
