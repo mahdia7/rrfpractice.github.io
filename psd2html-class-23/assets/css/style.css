@@ -988,14 +988,13 @@ li.mega-menu ul > li.row {
 
 .single-service-box {
 	border: 1px solid #e6e6e6;
-	padding: 25px;
+	padding: 25px 15px;
 	font-weight: 300;
 	line-height: 1.6;
 	margin-bottom: 50px;
 	-webkit-transition: .4s;
 	transition: .4s;
 }
-
 .service-icon {
 	font-size: 30px;
 	color: #5d5a5b;

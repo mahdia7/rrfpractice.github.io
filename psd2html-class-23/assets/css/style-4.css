@@ -1,0 +1,55 @@
+html,
+body {
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 700;
+}
+.search-box button {
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	padding: 12px 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: -8px;
+	width: 40px;
+	z-index: 99;
+}
+
+.search-box button:hover {
+	background: transparent;
+}
+
+.search-box input {
+	background: #073B4C none repeat scroll 0 0;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	padding: 8px 20px;
+	position: absolute;
+	z-index: 99;
+	right: 0;
+	top: 0;
+	width: 0;
+	-webkit-transition: width 0.4s;
+	transition: width 0.4s;
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.4s;
+}
+
+.search-box input.expandIn {
+	width: 80%;
+	opacity: 1;
+	visibility: visible;
+	transition: .4s;
+}

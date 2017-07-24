@@ -1,0 +1,119 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.boxed-btn,
+	input[type="submit"],
+	button[type="submit"] {
+		font-size: 13px;
+		padding: 13px 15px;
+	}
+	.hero-title h2 {
+		font-size: 40px;
+	}
+	.pdt-50 {
+		padding-top: 25px;
+	}
+	.single-service-box.theme-2 {
+		height: 220px;
+	}
+	.slide-text h2 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.single-service-box {
+		height: 310px;
+	}
+	.service-readmore-btn {
+		margin-bottom: 20px;
+	}
+	.service-number {
+		font-size: 50px;
+	}
+	.single-service-box {
+		height: 310px;
+	}
+	.single-service-box.theme-3 {
+		height: auto;
+		padding: 15px;
+	}
+	.single-case-study.theme-2 {
+		height: 270px;
+		width: 100%;
+	}
+	.theme-3 .blog-content h3 {
+		font-size: 15px;
+	}
+	.footer-area.theme-3 li a {
+		font-size: 15px;
+		padding: 0 8px;
+	}
+	.slide-text {
+		padding-top: 150px;
+	}
+	.website-checker-form.theme-3 input {
+		width: 25%;
+	}
+	.hero-area-4 {
+		background-repeat: no-repeat;
+		background-size: 110%;
+	}
+	.hero-text h2 {
+		font-size: 38px;
+	}
+	.hero-area-4 .website-checker-form.theme-4 input {
+		margin-right: 10px;
+	}
+	.pdt-80 {
+		padding-top: 50px;
+	}
+	.padding-30 {
+		padding: 0 20px;
+	}
+	.footer-area.theme-4 input[type="email"] {
+		width: 65%;
+	}
+	.footer-area.theme-4 input[type="submit"] {
+		padding: 11px 24px 10px;
+	}
+	.footer-area .email-subscribe input[type="submit"] {
+		padding: 11px 25px 10px;
+	}
+	.footer-area input[type="email"] {
+		width: 65%;
+	}
+	.marketing-bg {
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 400px;
+		margin-top: 47px;
+	}
+	.theme-3 .blog-content {
+		margin-bottom: 15px;
+		height: 300px;
+	}
+	.analysis {
+		padding-top: 60px;
+	}
+	.main-menu li.mega-menu .row li a {
+		font-size: 13px;
+		padding: 11px 4px 9px 7px;
+	}
+	.main-menu li.mega-menu .menu-title {
+		margin: 0 0 8px 5px;
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
