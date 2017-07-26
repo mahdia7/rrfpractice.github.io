@@ -1,0 +1,61 @@
+@media screen and (max-width:47.999em){html{min-width:0;}
+body{background:url(../images/mob_img/bg_mob.png) no-repeat center top #FFFFFF;}
+.wrapper{margin:0 auto;width:316px;min-width:0px;}
+.sprite.logo,.girl,.header .bottle,.sprite.tagline,.sprite.points,.sprite.beauty,.sprite.claim,.form_cont .sprite.arrow{display:none;}
+.header .lft{float:none;margin-left:0;width:auto;height:495px;}
+.form_cont{float:none;font-size:12px;margin:0px 0px 0 0;position:relative;width:auto;z-index:10;}
+.banner{height:auto;}
+.sprite.frm_head{background:url(../images/mob_img/frm_head.png) no-repeat center top;height:93px;margin:1px;padding:22px 0 0;width:auto;}
+.sprite.secure{margin:15px auto 5px;}
+.order_body_form_left{width:98px;}
+.header{padding:0 0 5px;}
+.container{width:auto;}
+.sec1 .upper, .sec2 .upper{background:none repeat scroll 0 0 #F1F1F1;border:1px solid #C0C0C0;height:auto;padding:0 0 12px;}
+.sec1 .sprite.title, .sec2 .sprite.title{background-position:0 -396px;height:68px;margin:0;padding:13px 0 0;position:relative;width:auto;z-index:2;}
+.sec1 .sprite.title .sprite.txt{background:url(../images/mob_img/sec1.png) no-repeat center top;height:45px;width:auto;}
+.sec1 .sprite.img{background-position:-36px -553px;float:none;height:318px;margin:0;width:auto;}
+.sec1 .upper p{font-size:12px;padding:0 5px 10px;}
+.sec1 .lft{float:none;width:auto;background:#fefbed;padding-top:1px;}
+.sec1 .sprite.work{background:url(../images/mob_img/sec1_lft.png) no-repeat 3px 0;height:53px;margin:7px 0;width:auto;}
+.sec1 .lft p{font-size:12px;padding:0 5px 10px;}
+.sec1 .sprite.after_before{background:url(../images/mob_img/sec1_after.png) no-repeat center top;height:225px;width:auto;}
+.sec1 .rgt{background:#F5F5F5;float:none;padding:0 0 10px;width:auto;}
+.sec1 .sprite.skin{height:66px;margin:0 0 10px;padding:14px 0 0;width:auto;}
+.sec1 .sprite.skin .sprite.txt{background:url(../images/mob_img/sec1_rgt.png) no-repeat center top;height:38px;width:auto;}
+.sec1 .rgt p{font-size:12px;padding:0 5px 10px;}
+.sec1 .sprite.graph{background:url(../images/mob_img/graph.png) no-repeat center top;height:218px;margin:0;padding:0;width:auto;}
+.sec2 .sec2_heading:after{height:0;position:relative;}
+.sec2 .sec2_heading{background:#f5f5f5 url(../images/mob_img/sec2.png) no-repeat center top;height:auto;margin:0;position:relative;width:auto;padding:80px 0 8px;text-align:center;}
+.sprite.badge2{display:none;}
+.sec2 .sec2_heading .btn{float:none;margin:0 auto;}
+.sec2 .woman{background-size:252px auto;-webkit-background-size:252px auto;float:none;height:318px;margin:6px 0 0 30px;position:relative;width:auto;z-index:3;}
+.sec2 .sprite.title .sprite.txt{background:url(../images/mob_img/sec2_txt.png) no-repeat 10px 0;float:none;height:61px;width:auto;}
+.sec2 .sprite.title{background-color:#00663B;background-position:0 -396px;height:auto;margin:0;padding:10px 0;}
+.sec2 .rgt{float:none;font-size:12px;padding:0;position:relative;width:auto;}
+.sec2 ul{background:#00AE1F;float:none;height:auto;margin:0 0 15px;padding:15px 5px 15px 105px;text-transform:uppercase;width:auto;box-shadow:0 0 40px #444444 inset;-webkit-box-shadow:0 0 40px #444444 inset;}
+.sec2 .rgt p{margin:0;padding:0 5px;}
+.sec2 .bottle{background:url(../images/mob_img/bottle_mob.png) no-repeat 0px 0;-webkit-background-size:74px auto;float:none;height:353px;left:6px;position:absolute;top:4px;width:84px;}
+.sec2 .upper{margin:0 0 10px;}
+.sec2 .steps{float:none;}
+.sec2 .steps ol{background:url(../images/mob_img/sec2_step.png) no-repeat 4px 0;font-size:12px;height:auto;margin:0;padding:0 0 0 167px;width:auto;}
+.sec2 .steps .step_title{background:url(../images/mob_img/sec2_txt2.png) no-repeat 0px 0;height:29px;margin:0 0 10px;width:auto;}
+.sec2 .steps ol li em{font-size:15px;}
+.sec2 .steps ol li{padding:0;height:78px;}
+.sec2 .steps .tag{background:url(../images/mob_img/sec2_txt3.png) no-repeat 6px 0;height:58px;margin:0;width:auto;}
+.sec2 .sprite.after_before2{background:url(../images/mob_img/sec2_after.png) no-repeat 0px 0;float:none;height:330px;margin:0;position:relative;width:auto;z-index:10;}
+.bottom .container{background:url(../images/mob_img/bot_mob.png) no-repeat 0px 0;border:0 solid #C9C9C9;height:440px;margin-top:0;position:relative;}
+.bottom .tag,.woman2,.bottom .bottle{display:none;}
+.order_submit_btn.big{background-position:-391px -136px;height:65px;margin:0;position:relative;width:248px;}
+.order_submit_btn.big:hover{background-position:-391px -206px;}
+.bottom .bar{background:none;bottom:12px;height:auto;left:35px;margin:0;position:absolute;width:auto;}
+.bottom{margin:0 0 20px;}
+.footer{padding:0 0 15px;}
+.footer ul{margin:0;padding:0 5px 18px;}
+*{-webkit-appearance:none;}
+.footer li:after{padding:0 13px;}
+.footer li:nth-child(2):after{content:"";display:block;}
+.footer{font-size:12px;}
+#popupmain{width:310px !important; margin: -240px 0 0 -158px !important; padding:0 !important; }
+#popupcontent{width:100% !important;}
+#exit_pop_content{width: 300px; margin: -272px 0 0 -150px; top: 65%;}
+}
