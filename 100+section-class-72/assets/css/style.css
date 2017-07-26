@@ -1,0 +1,74 @@
+/* Base CSS */
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.content-block {
+	background: #393F4C;
+	padding: 200px 0;
+	color: #fff;
+}
+
+.content-block h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 5px;
+	margin-bottom: 50px;
+}
+
+.single-counter-box {
+	text-align: center;
+	font-size: 50px;
+	border: 5px solid #fff;
+	height: 150px;
+}
+
+.single-counter-box p {
+	font-size: 20px;
+}
+
+.single-counter-box .counter {
+	font-size: 60px;
+
+}
