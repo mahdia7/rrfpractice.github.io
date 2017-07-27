@@ -1,0 +1,121 @@
+/* Base CSS */
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.contact-wrapper-bg {
+	background-image: url(../img/old-young-holding-hands.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.contact-wrapper {
+	position: relative;
+}
+
+.contact-wrapper-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 80%;
+	content: '';
+	z-index: 1;
+}
+
+.contact-wrapper .row {
+	z-index: 1;
+	position: relative;
+}
+
+.contact-wrapper-bg::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #5179C5;
+	content: '';
+	z-index: -1;
+	opacity: .8;
+}
+
+.contact-wrapper {
+	padding: 80px;
+	color: #fff;
+}
+.boxed-form {
+	background: #fff;
+	margin-left: 100px;
+	color: #333;
+	padding: 30px;
+	box-shadow: 0 0 4px #ccc;
+}
+
+.boxed-form input, .boxed-form textarea {
+	width: 100%;
+	padding: 13px;
+	border: 1px solid #ddd;
+	background: #F1F1F1;
+}
+
+.boxed-form textarea {
+	height: 120px;
+}
+
+.boxed-form input[type=submit] {
+	background: #009812;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.contact-wrapper p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+.boxed-form h2 {
+	text-align: center;
+}
