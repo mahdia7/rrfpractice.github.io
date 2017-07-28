@@ -2,6 +2,7 @@
 	"use strict";
 
 	jQuery(document).ready(function ($) {
+		
 		$('.case-studies-carousel').owlCarousel({
 			margin: 30,
 			nav: false,
@@ -106,7 +107,7 @@
 			$('.single-testimonial-item').removeClass('active');
 			$(this).addClass('active');
 		});
-		
+
 		$('#traffic-menu').slicknav({
 			prependTo: '#mobile-menu-wrap'
 		});
@@ -115,12 +116,12 @@
 	});
 
 	jQuery(window).load(function () {
-		
+
 		var content = '<div id="iw_container">' +
-		'<div class="iw_title"><h3>Address</h3></div>' +
-		'<div class="iw_content">470 Lucy Forks, Patriciafurt, YC7B 3UT</div>' +
-		'<div class="iw_title"><h3>Phone Number</h3></div>' +
-		'<div class="iw_content"><p>(0161) 347 8854</p> <p>(0117) 900 9463</p></div>' + '</div>'
+			'<div class="iw_title"><h3>Address</h3></div>' +
+			'<div class="iw_content">470 Lucy Forks, Patriciafurt, YC7B 3UT</div>' +
+			'<div class="iw_title"><h3>Phone Number</h3></div>' +
+			'<div class="iw_content"><p>(0161) 347 8854</p> <p>(0117) 900 9463</p></div>' + '</div>'
 
 
 		var center = [41.4018668, -73.1396181]
@@ -203,7 +204,7 @@
 			.then(function (infowindow) {
 				infowindow.open(this.get(0)); // this.get(0) return the map (see "get" feature)
 			});
-			
+
 	});
 
 

@@ -354,7 +354,9 @@
 		right: 37px;
 		font-size: 25px;
 		top: 5px;
+		display: block;
 	}
+	
 	.header-area.header-absolute {
 		top: 63px;
 	}
