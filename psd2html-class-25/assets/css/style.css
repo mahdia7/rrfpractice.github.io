@@ -128,13 +128,11 @@ button[type=submit]:focus {
 	transition: .3s;
 	margin-top: 15px;
 	display: inline-block;
-	position: relative;
 }
 
 .arrow-btn i.zmdi {
-	position: absolute;
-	padding-left: 9px;
-	padding-top: 1px;
+	margin-top: 5px;
+	padding-left: 4px;
 }
 
 .arrow-btn:hover {
