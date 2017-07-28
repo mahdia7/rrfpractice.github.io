@@ -9,7 +9,8 @@ body {
 	color: #fff
 }
 
-.header-area.header-absolute {
+.header-area.header-absolute,
+.header-area.header-absolute-2 {
 	position: absolute;
 	z-index: 99;
 	width: 100%;
