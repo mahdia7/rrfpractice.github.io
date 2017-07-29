@@ -3,6 +3,7 @@
 
 	jQuery(document).ready(function ($) {
 		
+
 		// menu bar open and close
 		$('.menu-trigger').on('click', function () {
 			$('.toggle-menu .main-menu').slideToggle(400, function () {
@@ -10,7 +11,7 @@
 				return false;
 			});
 		});
-	
+
 		// Smooth Scrolling
 		$(".header-area ul li a[href^='#']").on('click', function (event) {
 			var target;
@@ -27,7 +28,7 @@
 				return window.history.pushState(null, null, target);
 			});
 		});
-		
+
 		// Sticky Header
 		$(window).scroll(function () {
 			if ($(document).scrollTop() > 100) {

@@ -39,10 +39,7 @@
 	input[type="submit"] {
 		padding: 13px 25px;
 	}
-	.boxed-btn:hover,
-	input[type="submit"]:hover {
-		padding: 13px 35px;
-	}
+	
 	/* About */
 	.about-content {
 		padding: 80px 50px;
@@ -191,7 +188,6 @@
 	}
 	.boxed-btn:hover,
 	input[type="submit"]:hover {
-		padding: 12px 25px;
 		font-size: 12px;
 	}
 	.section-title {
@@ -310,9 +306,7 @@
 	.bordered-btn {
 		padding: 13px 25px;
 	}
-	.bordered-btn:hover {
-		padding: 13px 35px;
-	}
+	
 	body {
 		overflow-x: hidden !important;
 	}
