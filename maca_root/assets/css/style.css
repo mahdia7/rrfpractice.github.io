@@ -87,9 +87,11 @@ a:hover {
 	padding: 80px 0;
 }
 
+
 /********************
 	header Area CSS
 ********************/
+
 .header-area {
 	padding: 20px 0;
 	border-bottom: 3px solid #40bb4f;
@@ -118,9 +120,11 @@ a:hover {
 	border-color: #ADD76A;
 }
 
+
 /********************
 	Form Area CSS
 ********************/
+
 .form-right-content {
 	position: relative;
 	background: #F8F8F8;
@@ -143,21 +147,70 @@ a:hover {
 	color: #2D4777;
 }
 
-.form-right-content input[placeholder],
-.form-right-content select {
+.form-right-content input[placeholder] {
 	color: #666666;
 }
 
 .form-right-content input[type=text],
 .form-right-content input[type=email],
-.form-right-content input[type=tel],
-.form-right-content select {
+.form-right-content input[type=tel] {
 	border: 1px solid #e1e1e1;
 	padding: 6px 12px;
 	width: 100%;
 	border-radius: 5px;
 }
 
+.select-style select {
+	border: 1px solid #e1e1e1;
+	padding: 6px 12px;
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	color: #aaa !important;
+	box-shadow: none;
+	background: #fff;
+	background-image: none;
+	-webkit-appearance: none;
+}
+
+.select-style {
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.select-style::after {
+	position: absolute;
+	content: '\f0d7';
+	font-family: fontAwesome;
+	color: #c8c8c8;
+	font-size: 19px;
+	right: 14px;
+	top: 4px;
+}
+
+.select-style select {
+	width: 130%;
+	border: none;
+	box-shadow: none;
+	background: #fff;
+	background-image: none;
+	-webkit-appearance: none;
+}
+
+.select-style select:focus {
+	outline: none;
+}
+
+.select-style select option {
+	color: #666666;
+	background: #fff;
+	outline: 0 !important;
+	border: 1px solid #e1e1e1;
+	box-shadow: none !important;
+}
 
 .order_submit_btn {
 	background: #31ab40;
@@ -303,9 +356,11 @@ a:hover {
 	color: #47B258;
 }
 
+
 /***************************
 	Arrow Section CSS
 ****************************/
+
 .row.product-details {
 	margin-top: -36px;
 	background: #E9E9E9;
@@ -374,7 +429,6 @@ a:hover {
 	display: none;
 }
 
-
 .arrow-section-content {
 	color: #fff;
 	line-height: 1.2;
@@ -389,9 +443,12 @@ a:hover {
 .arrow-section-content h4 span {
 	text-transform: uppercase;
 }
+
+
 /******************************
 	Product Feature Area CSS
 ******************************/
+
 .row.feature-content-area {
 	background: #fff;
 }
@@ -436,8 +493,6 @@ a:hover {
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
-
-
 
 .order-section .order_submit_btn {
 	margin-top: 30px;
@@ -487,9 +542,12 @@ a:hover {
 	display: inline-block;
 	width: 45%;
 }
+
+
 /********************
 	Foother Area CSS
 ********************/
+
 .footer-area ul {
 	margin: 0;
 	padding: 0;
@@ -532,6 +590,7 @@ a:hover {
 /**********************************
 	theme-2 and theme-3 CSS
 ***********************************/
+
 .form-right-content.theme-2 h3,
 .row.product-details.theme-2 h1 {
 	color: #E54C0E !important;
@@ -562,6 +621,7 @@ a:hover {
 	background: linear-gradient(to bottom, #1660c3 0%, #749acc 56%, #759cce 75%, #1660c3 100%, #4681cf 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1660c3', endColorstr='#4681cf', GradientType=0);
 }
+
 .ribbon.theme-2 {
 	background: #e3480c;
 	background: -moz-linear-gradient(left, #e3480c 0%, #ff9832 40%, #ff9832 56%, #e24a0d 100%, #e24a0d 100%);
@@ -617,9 +677,11 @@ a:hover {
 .theme-2 .col-md-3.arrow-section-3:before {
 	border-left: 30px solid #357FE4 !important;
 }
-.theme-2 .col-md-3.arrow-section-1{
+
+.theme-2 .col-md-3.arrow-section-1 {
 	background: #1660C3;
 }
+
 .theme-2 .col-md-3.arrow-section-4 {
 	background: #4891F4 !important;
 }
