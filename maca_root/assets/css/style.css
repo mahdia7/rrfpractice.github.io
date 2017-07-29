@@ -218,7 +218,7 @@ a:hover {
 .ribbon.theme-3:before {
 	left: -63px;
 	border-right-width: 30px;
-	border-left-color: transparent;
+	border-left-color: transparent !important;
 }
 
 .ribbon:after,
@@ -226,7 +226,7 @@ a:hover {
 .ribbon.theme-3:after {
 	right: -53px;
 	border-left-width: 17px;
-	border-right-color: transparent;
+	border-right-color: transparent !important;
 }
 
 .ribbon .ribbon-content:before,
