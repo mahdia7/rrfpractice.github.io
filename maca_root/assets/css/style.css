@@ -128,13 +128,13 @@ a:hover {
 .form-right-content {
 	position: relative;
 	background: #F8F8F8;
-	padding: 30px 20px 30px 50px;
+	padding: 30px;
 	border-radius: 10px;
 	margin-top: 20px;
 	z-index: 99;
 }
 
-.form-right-content img {
+.form-right-content .absolute-image {
 	position: absolute;
 	left: -77%;
 	top: 90px;
@@ -192,7 +192,7 @@ a:hover {
 }
 
 .select-style select {
-	width: 130%;
+	width: 110%;
 	border: none;
 	box-shadow: none;
 	background: #fff;
@@ -201,7 +201,7 @@ a:hover {
 }
 
 .select-style select:focus {
-	outline: none;
+	outline: 0 !important;
 }
 
 .select-style select option {
@@ -736,4 +736,161 @@ a:hover {
 	background: -webkit-linear-gradient(top, #bf1137 0%, #fc3f68 67%, #c21138 98%, #c21138 100%);
 	background: linear-gradient(to bottom, #bf1137 0%, #fc3f68 67%, #c21138 98%, #c21138 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf1137', endColorstr='#c21138', GradientType=0);
+}
+
+.row.checkout-wrap {
+	background: #fff;
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.checkout-wrap-content {
+	padding: 20px;
+	border: 1px solid #e1e1e1;
+}
+
+.checkout-wrap-content h2 {
+	color: #294264;
+	font-size: 35px;
+}
+
+.row.pricing-content {
+	font-size: 22px;
+	padding: 5px 0;
+}
+
+.row.pricing-content .price {
+	text-align: right;
+}
+
+.row.pricing-content.total {
+	border-top: 1px dotted #a0a0a0;
+	padding-top: 14px;
+}
+
+.term-condition-text {
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.term-condition-text .checkbox {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	outline: 0 !important;
+}
+
+.radio-btn {
+	text-align: center;
+	margin-right: 30px;
+}
+
+.radio-btn input[type=radio] {
+	margin: 0 10px;
+}
+
+.checkout-form-top {
+	text-align: center;
+	font-size: 18px;
+}
+
+.cvv-link {
+	color: #31AB40;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.modalClick {
+	color: #31AB40;
+}
+
+.form-right-content label {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+a:hover {
+	color: #294264;
+}
+
+.row.checkout-wrap .form-right-content {
+	border-radius: 0 0 20px 20px;
+	margin-top: 0;
+}
+
+.form-header {
+	color: #fff;
+	text-align: center;
+	background: #294264;
+	background: -moz-linear-gradient(top, #294264 0%, #81b1e1 41%, #81b1e1 65%, #294264 100%);
+	background: -webkit-linear-gradient(top, #294264 0%, #81b1e1 41%, #81b1e1 65%, #294264 100%);
+	background: linear-gradient(to bottom, #294264 0%, #81b1e1 41%, #81b1e1 65%, #294264 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294264', endColorstr='#294264', GradientType=0);
+	padding: 30px 0;
+	border-radius: 20px 20px 0 0;
+}
+
+.form-header p {
+	margin: 0;
+}
+
+.form-header h2 {
+	text-transform: uppercase;
+	font-size: 49px;
+	margin: 0;
+}
+
+.form-header p {
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.row.policy {
+	margin-top: 80px;
+}
+
+.arrow-title {
+	color: #ffff;
+	background: #01aa15;
+	background: -moz-linear-gradient(left, #01aa15 0%, #50ba5c 44%, #70cc7a 60%, #80d689 98%);
+	background: -webkit-linear-gradient(left, #01aa15 0%, #50ba5c 44%, #70cc7a 60%, #80d689 98%);
+	background: linear-gradient(to right, #01aa15 0%, #50ba5c 44%, #70cc7a 60%, #80d689 98%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01aa15', endColorstr='#80d689', GradientType=1);
+	padding: 35px 0;
+	position: relative;
+	margin-right: 75px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+}
+.arrow-title h2 span {
+	text-transform: uppercase;
+}
+.arrow-title h2 {
+	font-size: 45px;
+	margin: 0;
+}
+
+.arrow-title:before {
+	position: absolute;
+	content: '';
+	right: -60px;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-left: 60px solid #80D689;
+	border-bottom: 60px solid transparent;
+}
+.row.policy p {
+	font-size: 13px;
+	line-height: 1.5;
+	color: #A6A6A6;
+}
+.row.policy p a {
+	color: #48B855;
+	font-size: 16px;
+}
+.bill-meta p {
+	margin-top: 20px;
 }
