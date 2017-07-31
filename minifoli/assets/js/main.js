@@ -2,6 +2,8 @@
 	"use strict";
 
 	jQuery(document).ready(function ($) {
+		// 1. Simple mode, it styles document scrollbar:
+		$("body").niceScroll();
 		// On Click scrolling
 		$(".header-area ul li a[href^='#']").on('click', function () {
 			$(".header-area ul li a[href^='#']").removeClass("active");
