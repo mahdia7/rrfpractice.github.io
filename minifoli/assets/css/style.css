@@ -993,8 +993,6 @@ input[type="submit"] {
 }
 .main-menu li a::after {
 	position: absolute;
-	content: ;
-	content: ;
 	content: '';
 	left: 0;
 	bottom: 0;
@@ -1513,7 +1511,6 @@ input[type="submit"] {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: ;
 }
 
 .single-service-box-2 h3 span {
@@ -1673,7 +1670,6 @@ input[type="submit"] {
 }
 
 .single-blog-item:hover .blog-content {
-	box-sizing: ;
 	box-shadow: 0 0 30px #cecece;
 }
 
@@ -1769,7 +1765,6 @@ input[type="submit"] {
 
 .social-links li {
 	display: inline-block;
-	float: ;
 }
 
 .social-links li a {
@@ -2219,7 +2214,6 @@ input[type="submit"] {
 
 .blog-dark .comment-section input[type="submit"] {
 	background: transparent;
-	border: ;
 	color: #c3c3c3;
 	border-color: #c3c3c3;
 }
