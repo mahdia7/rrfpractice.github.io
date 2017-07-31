@@ -7,15 +7,22 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/* Header and Menu */
-	.header-area {
-		padding-bottom: 0;
+	.header-area.change,
+	.fixed {
+		opacity: 1 !important;
 	}
-	.main-menu li a {
-		font-size: 12px;
-		letter-spacing: 0;
+	.header-area.shrink {
+		padding: 20px 0 0;
 	}
-	.main-menu li {
-		padding: 5px 10px;
+	.logo h2 {
+		margin-bottom: 20px;
+	}
+	.dark .about-content {
+		background: transparent;
+	}
+	
+	.main-menu {
+		display: none;
 	}
 	.breadcroumb-area {
 		height: 350px;
@@ -39,7 +46,6 @@
 	input[type="submit"] {
 		padding: 13px 25px;
 	}
-	
 	/* About */
 	.about-content {
 		padding: 80px 50px;
@@ -71,12 +77,19 @@
 		background: none;
 	}
 	/* Video */
+	.dark .video-area {
+		background: #333333;
+	}
 	.video-area {
 		text-align: center;
 		background: #F9F9F9;
 	}
 	.video-play-btn {
 		left: 250px;
+	}
+	.video-play-btn i.fa {
+		left: 50%;
+		margin-left: -110px;
 	}
 	/* Services */
 	.service-area .section-title {
@@ -87,7 +100,6 @@
 		padding: 20px 30px;
 	}
 	/* Porfolio */
-	
 	.section-title,
 	.project-filter {
 		text-align: center;
@@ -126,13 +138,42 @@
 		font-size: 20px;
 		padding: 7px 60px;
 	}
-	
+	.slicknav_menu {
+		display: block;
+	}
+	.main-menu {
+		display: none;
+	}
+	.dark .header-area .slicknav_icon .slicknav_icon-bar,
+	.blog-dark .header-area .slicknav_icon .slicknav_icon-bar {
+		background: #fff;
+	}
 }
 
 
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+	.header-area.change,
+	.fixed {
+		opacity: 1 !important;
+	}
+	.dark .header-area .slicknav_icon .slicknav_icon-bar,
+	.blog-dark .header-area .slicknav_icon .slicknav_icon-bar {
+		background: #fff;
+	}
+	.header-area.shrink {
+		padding: 20px 0 0;
+	}
+	.logo h2 {
+		margin-bottom: 20px;
+	}
+	
+	.slicknav_btn .slicknav_icon {
+		margin-right: 30px;
+		margin-top: -47px;
+	}
+	
 	.hero-image {
 		max-width: 310px;
 		top: 57px;
@@ -142,7 +183,7 @@
 		height: 350px;
 	}
 	.about-content {
-		padding: 50px 20px;
+		padding: 50px 20px !important;
 		text-align: center;
 	}
 	.about-bg {
@@ -191,10 +232,14 @@
 		font-size: 12px;
 	}
 	.section-title {
+		font-size: 25px;
 		text-align: center;
 	}
 	.progress-level {
-		padding: 40px 20px;
+		padding: 40px 20px !important;
+	}
+	.video-area {
+		padding: 20px !important;
 	}
 	.service-carousel {
 		padding: 0;
@@ -216,7 +261,9 @@
 		width: 250px;
 		display: block;
 	}
-	.row.projects-list {}
+	.slicknav_menu {
+		display: block;
+	}
 	.about {
 		text-align: center;
 	}
@@ -242,7 +289,7 @@
 		text-align: center;
 	}
 	.contact-form {
-		padding: 40px 0;
+		padding: 40px 0 !important;
 	}
 	.scrollToTop {
 		right: 20px;
@@ -251,7 +298,7 @@
 		width: 290px;
 	}
 	.location-content {
-		padding: 10px;
+		padding: 10px !important;
 		text-align: center;
 	}
 	.contact-area .section-title {
@@ -306,7 +353,6 @@
 	.bordered-btn {
 		padding: 13px 25px;
 	}
-	
 	body {
 		overflow-x: hidden !important;
 	}
@@ -372,66 +418,6 @@
 	}
 	.entry-content p {
 		text-align: center;
-	}
-	
-	
-	/* responsive menu CSS */
-	.menu-trigger {
-		display: block;
-		z-index: 9;
-	}
-	.toggle-menu .main-menu {
-		display: none
-	}
-	.toggle-menu {
-		position: relative;
-	}
-	.header-area .menu-trigger {
-		color: #333 !important;
-	}
-	.header-area .toggle-menu .main-menu li a {
-		color: #fff !important;
-	}
-	.header-area.change .menu-trigger {
-		color: #fff !important;
-	}
-	.header-area.fixed .menu-trigger {
-		color: #fff !important;
-	}
-	.header-area.fixed .menu-trigger,
-	.header-area .menu-trigger{
-		position: absolute;
-		right: 0;
-		top: -55px;
-		padding: 0 30px;
-		font-size: 25px;
-		cursor: pointer;
-	}
-	.toggle-menu .main-menu li {
-		display: block;
-		padding: 0;
-	}
-	.toggle-menu .main-menu li a {
-		padding: 10px 0 10px 16px;
-		border-bottom: 1px solid #fff;
-	}
-	.header-area {
-		padding-bottom: 0;
-	}
-	.toggle-menu .main-menu ul {
-		background: #000;
-	}
-	.toggle-menu .main-menu li:last-child a {
-		border-bottom: none;
-	}
-	.logo h2 {
-		margin-bottom: 20px !important;
-	}
-	.expand {
-		display: block;
-	}
-	.header-area.shrink {
-		padding: 10px 0 0;
 	}
 }
 

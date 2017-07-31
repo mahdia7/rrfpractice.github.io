@@ -2,7 +2,17 @@
 	"use strict";
 
 	jQuery(document).ready(function ($) {
+		// On Click scrolling
+		$(".header-area ul li a[href^='#']").on('click', function () {
+			$(".header-area ul li a[href^='#']").removeClass("active");
+			$(this).addClass("active");
+			
+		});
 		
+		// Slicknav Mobile menu
+		$('#mobile-menu').slicknav({
+			prependTo: '#mobile-menu-wrap'
+		});
 
 		// menu bar open and close
 		$('.menu-trigger').on('click', function () {
