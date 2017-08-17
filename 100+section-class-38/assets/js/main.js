@@ -8,7 +8,7 @@
 			nav: true,
 			dots: true,
 			loop: true,
-			autoplay: true,
+			autoplay: false,
 			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 			animateOut: 'fadeOut'
 		});
