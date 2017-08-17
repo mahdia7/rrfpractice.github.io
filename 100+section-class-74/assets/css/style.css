@@ -1,0 +1,125 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html, body {
+	height: 100%;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+.welcome-area {
+	background-image: url(../img/hero-bg.jpg);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: table;
+}
+
+.welcome-area-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+.welcome-area-inner h2 {
+  font-size: 55px;
+  font-weight: 400;
+}
+.welcome-area-inner p {
+  font-size: 25px;
+  color: #ccc;
+}
+.email-subscribe-form {
+  width: 300px;
+  margin: 40px auto 0;
+}
+.email-subscribe-form input {
+  width: 100%;
+  border: 0;
+  margin: 0 0 20px;
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+
+.email-subscribe-form input[type=submit] {
+  background: #F6AD3A;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+	transition: .3s;
+}
+.email-subscribe-form input[placeholder] {
+  color: #333;
+  text-align: center;
+  font-style: italic;
+}
+
+.welcome-divider {
+  position: relative;
+}
+.welcome-divider i.fa {
+  font-size: 25px;
+  color: #646464;
+}
+.welcome-divider::before, .welcome-divider::after {
+  position: absolute;
+  height: 1px;
+  width: 250px;
+  background: #646464;
+  left: 300px;
+  top: 10px;
+  content: '';
+}
+.welcome-divider::after {
+  right: 300px;
+  left: auto;
+}
+.email-subscribe-form input[type="submit"]:hover {
+  background: #F3A424;
+}
+
+.single-countdown-inner {
+  font-size: 80px;
+  display: inline-block;
+  padding: 20px;
+  line-height: 50px;
+  margin-top: 40px;
+  font-weight: 300;
+}
+.single-countdown-inner span {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
