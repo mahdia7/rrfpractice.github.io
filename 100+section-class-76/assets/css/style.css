@@ -1,0 +1,146 @@
+/* Base CSS */
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {}
+
+a:hover {
+	text-decoration: none
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.round-bg {
+	position: relative;
+	z-index: 1;
+}
+
+.round-bg::after {
+	position: absolute;
+	background-image: url(../img/feature-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-color: #ddd;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -225px;
+	content: '';
+	z-index: -1;
+	height: 450px;
+	width: 500px;
+	border-radius: 50%;
+}
+
+.feature-icon {
+	position: absolute;
+	right: 0;
+	height: 120px;
+	background: #fff;
+	width: 120px;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 120px;
+	top: 0;
+	margin-right: 20px;
+	margin-top: 15px;
+	transition: .3s;
+}
+
+.feature-icon img {
+	border: 1px solid #e1e1e1;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+	transition: .3s;
+}
+
+.single-feature-item h2 {
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.single-feature-item {
+	text-align: right;
+	padding-right: 170px;
+	position: relative;
+	z-index: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 100px;
+	font-size: 18px;
+	margin-right: 40px;
+}
+
+.left-icon .feature-icon {
+	left: 0;
+	right: auto;
+}
+
+.single-feature-item.left-icon {
+	margin-left: 40px;
+	padding-left: 170px;
+	text-align: left;
+	padding-right: 0;
+	margin-right: 90px;
+}
+
+.single-feature-item.feature-padding-right {
+	margin-right: 180px;
+	margin-left: 0;
+}
+
+.single-feature-item.left-icon .feature-icon {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.single-feature-item.left-icon.feature-padding-left {
+	margin-right: 0;
+	margin-left: 170px;
+}
+
+.single-feature-item:nth-child(2),
+.single-feature-item:nth-child(4),
+.single-feature-item:nth-child(6) {
+	margin-left: 20px;
+}
+
+.feature-icon img:hover {
+	box-shadow: 0 0 10px #ddd;
+}
