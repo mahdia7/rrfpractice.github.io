@@ -1,0 +1,156 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:300,400,500,600');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+	font-weight: 400;
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+.feature-bg-1 .feature-bg{background-image: url(../img/feature-item-1.jpg.png)}
+.feature-bg-2 .feature-bg{background-image: url(../img/feature-item-2.jpg)}
+.feature-bg-3 .feature-bg{background-image: url(../img/feature-item-3.jpg.png)}
+.feature-bg-4 .feature-bg{background-image: url(../img/feature-item-4.jpg.png)}
+
+.feature-bg {
+	background-position: center;
+	background-color: #ddd;
+	height: 100%;
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	content: '';
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 40px;
+}
+
+
+.feature-content {
+  background: #fff;
+  padding: 50px;
+  box-shadow: 0 0 10px #e1e1e1;
+  position: relative;
+  padding-left: 80px;
+}
+.feature-no {
+  font-size: 41px;
+  color: #C5C5C5;
+  z-index: 1;
+  position: absolute;
+  left: 20px;
+  top: 24px;
+}
+.feature-no:after {
+  position: absolute;
+  content: '';
+  left: 30px;
+  top: 0;
+  height: 85px;
+  width: 2px;
+  background: ;
+  background: #c5c5c5;
+  transform: rotate(40deg);
+  z-index: -1;
+}
+.feature-content h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+.feature-content p {
+  color: #808080;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.single-feature-item.feature-bg-1 .feature-content {
+  border-bottom: 3px solid #FF5E3D;
+}
+.single-feature-item.feature-bg-2 .feature-content {
+  border-bottom: 3px solid #22C58E;
+}
+.single-feature-item.feature-bg-3 .feature-content {
+  border-bottom: 3px solid #B077F5;
+}
+.single-feature-item.feature-bg-4 .feature-content {
+  border-bottom: 3px solid #FDB953;
+}
+.single-feature-item {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
