@@ -1,0 +1,882 @@
+/* Base CSS */
+
+@font-face {
+	font-family: "UTMAvo";
+	src: url("../fonts/UTMAvo.eot") format("eot"), url("../fonts/UTMAvo.woff") format("woff"), url("../fonts/UTMAvo.ttf") format("truetype"), url("../fonts/UTMAvo.svg#UTMAvo") format("svg");
+}
+
+@font-face {
+	font-family: "UTMAvoBold";
+	src: url("../fonts/UTMAvoBold.eot") format("eot"), url("../fonts/UTMAvoBold.woff") format("woff"), url("../fonts/UTMAvoBold.ttf") format("truetype"), url("../fonts/UTMAvoBold.svg#UTMAvo") format("svg");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+a {
+	transition: .3s;
+	color: #333;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: 0 solid;
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+	font-family: 'UTMAvoBold';
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.7;
+	color: #999;
+	font-family: 'UTMAvo';
+	overflow-x: hidden;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.gray-bg {
+	background: #EFEFEF;
+}
+
+
+/********************
+	Header area CSS
+********************/
+
+.slicknav_menu {
+	background: #008CE6;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	padding: 0;
+}
+
+.slicknav_menu .slicknav_menutxt {
+	font-family: 'UTMAvoBold';
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-shadow: none;
+}
+
+.slicknav_btn {
+	background: #FF8800;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+	box-shadow: none;
+}
+
+.slicknav_nav {
+	border-top: 1px solid #FF8800;
+}
+
+.slicknav_nav a {
+	margin: 0;
+	padding: 5px 30px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.slicknav_nav a:hover {
+	border-radius: 0;
+	background: #003351;
+	color: #fff;
+}
+
+.logo {
+	background: #008CE6;
+	padding: 25px 0;
+}
+
+.logo a {
+	color: #fff;
+}
+
+.logo h1 {
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+
+.main-menu li {
+	display: inline-block;
+	padding-bottom: 35px;
+}
+
+.main-menu li a {
+	text-transform: uppercase;
+	font-family: 'UTMAvoBold';
+	padding: 5px;
+	color: #306384;
+}
+
+.main-menu li.active {
+	position: relative;
+	transition: .3s;
+}
+
+.main-menu li.active:before {
+	position: absolute;
+	content: '';
+	height: 5px;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background: #FF8800;
+}
+
+.main-menu {
+	margin-top: 34px;
+}
+
+#mobile-menu-wrap {
+	display: none;
+}
+
+.header-area {
+	box-shadow: 0 0 5px #999;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	background: #fff;
+}
+
+.contact-no p {
+	color: #FF8800;
+	font-family: 'UTMAvoBold';
+	font-size: 20px;
+	padding-left: 45px;
+	line-height: 28px;
+	padding-top: 10px;
+}
+
+.contact-no span {
+	color: #999;
+	font-family: 'UTMAvo';
+	font-size: 77%;
+	display: block;
+	font-weight: 700;
+}
+
+.contact-no {
+	position: relative;
+}
+
+.contact-no p i.fa {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 68px;
+	margin-top: 6px;
+	margin-left: -6px;
+}
+
+.contact-no::before,
+.contact-no:after {
+	position: absolute;
+	content: '';
+	left: -45px;
+	top: 0;
+	background: #e1e1e1;
+	height: 95px;
+	width: 1px;
+}
+
+.contact-no:after {
+	right: 0;
+	left: auto;
+}
+
+.search-btn {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+
+/**********************
+	Hero Area CSS
+***********************/
+
+.hero-area {
+	background-image: url(../img/hero-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+	display: table;
+	position: relative;
+	z-index: 1;
+}
+
+.hero-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.hero-bg {
+	position: relative;
+	z-index: 1;
+}
+
+.hero-content {
+	font-size: 20px;
+	padding-top: 80px;
+}
+
+.hero-content h2 {
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #008CE6;
+	font-weight: 300;
+}
+
+.boxed-btn,
+input[type=submit] {
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 35px;
+	background: #FF8800;
+	border-radius: 5px;
+	margin: 20px 0;
+	font-family: 'UTMAvoBold';
+	margin-right: 20px;
+}
+
+.boxed-btn:hover,
+input[type="submit"]:hover,
+.single-pricing-box.active .boxed-btn:hover {
+	background: #003351 !important;
+	color: #fff !important;
+}
+
+.boxed-btn.readmore:hover {
+	background: transparent !important;
+	color: #003351 !important;
+}
+
+.boxed-btn.blue {
+	background: #003351;
+}
+
+.absolute-img {
+	position: absolute;
+	top: -23px;
+	right: 0;
+	height: 500px;
+	width: auto;
+}
+
+
+/**********************
+  Call to action CSS
+**********************/
+
+.cta-area {
+	background: #008CE6;
+	padding: 20px 0;
+	color: #fff;
+}
+
+.cta-area .boxed-btn {
+	margin: 0;
+}
+
+.cta-area p {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+
+/**********************
+	Service CSS
+**********************/
+
+.row.service-boxes .col-md-6 {
+	padding: 0;
+}
+
+.row.service-boxes .col-md-6 {
+	padding: 0;
+}
+
+.service-after {
+	position: relative;
+}
+
+.service-after::after {
+	position: absolute;
+	content: 'Welcome to Datacloud!';
+	right: -20%;
+	top: 50%;
+	transform: rotate(90deg);
+	font-size: 30px;
+	font-family: 'UTMAvoBold';
+	opacity: .3;
+	margin-top: -30px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.absolute-img2 {
+	position: absolute;
+	bottom: -80px;
+	left: 0;
+	max-height: 500px;
+}
+
+.single-service-box p {
+	margin: 0;
+}
+
+.single-service-box {
+	position: relative;
+	padding: 30px 0;
+	padding-left: 65px;
+	background: #fff;
+	max-height: 200px;
+}
+
+.service-icon i.fa {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 20px;
+	color: #008CE6;
+	height: 40px;
+	width: 40px;
+	line-height: 38px;
+	border: 1px solid #003351;
+	text-align: center;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: 12px;
+}
+
+.single-service-box h3 {
+	font-weight: 300;
+	font-size: 18px;
+	color: #003351;
+}
+
+
+/********************
+	Portfolio CSS
+********************/
+
+.section-title h3 {
+	color: #003351;
+	margin-bottom: 5px;
+}
+
+.section-title {
+	font-size: 13px;
+}
+
+.project-titles {
+	text-align: right;
+}
+
+.project-titles li {
+	display: inline-block;
+	margin: 0 8px;
+	border-bottom: 5px solid #ddd;
+	padding: 13px 0;
+	font-family: 'UTMAvoBold';
+	cursor: pointer;
+	color: #003351;
+}
+
+.project-titles li.active {
+	border-color: #FF8800;
+}
+
+.projects-list,
+.pricing-list,
+.pricing-titles {
+	margin-top: 60px;
+}
+
+.project-bg-1 {
+	background-image: url(../img/portfolio-1.jpg);
+	height: 350px;
+}
+
+.project-bg-2 {
+	background-image: url(../img/portfolio-2.jpg);
+	height: 350px;
+}
+
+.project-bg-3 {
+	background-image: url(../img/portfolio-3.jpg);
+	height: 250px;
+}
+
+.project-bg-4 {
+	background-image: url(../img/portfolio-4.jpg);
+	height: 350px;
+}
+
+.project-bg-5 {
+	background-image: url(../img/portfolio-5.jpg);
+	height: 250px;
+}
+
+.single-project-item {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 1;
+}
+
+.project-hover {
+	height: 100%;
+	width: 100%;
+	display: table;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: .3s;
+	color: #ffff;
+	visibility: hidden;
+	transform: scale(0);
+}
+
+.project-hover-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.project-hover:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '';
+	background: #008CE6;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: .8;
+}
+
+.project-hover h4 {
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: -35px;
+}
+
+.project-hover h4 span {
+	display: block;
+	font-size: 80%;
+	font-family: 'UTMAvo';
+	margin-top: 10px;
+}
+
+.projects-icon a {
+	color: #008CE6;
+	height: 40px;
+	width: 40px;
+	background: #fff;
+	margin: 10px;
+	display: inline-block;
+	line-height: 40px;
+	border-radius: 5px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.projects-icon {
+	margin-bottom: 50px;
+}
+
+.single-project-item:hover .project-hover {
+	visibility: visible;
+	opacity: .8;
+	transform: scale(1);
+}
+
+.boxed-btn.white {
+	background: #fff;
+	color: #333;
+	border-color: #ddd !important;
+}
+
+
+/*****************************
+	Service Section 2 CSS
+******************************/
+
+.service-bg {
+	background-image: url(../img/service-1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 185px;
+	width: 100%;
+}
+
+.single-service-item.full-height {
+	height: 410px;
+	padding: 50px 0;
+	max-height: 456px !important;
+	position: relative;
+	margin-left: 38px;
+	padding-left: 60px;
+	padding-right: 40px;
+}
+
+.single-service-item.full-height:before {
+	position: absolute;
+	content: 'Our Services';
+	left: -50%;
+	top: 50%;
+	background: #56AEE3;
+	color: #fff;
+	font-family: 'UTMAvoBold';
+	font-size: 40px;
+	font-weight: 300;
+	transform: rotate(-90deg);
+	height: 60px;
+	width: 410px;
+	text-align: center;
+	margin-top: -30px;
+	margin-left: -10px;
+	line-height: 50px;
+}
+
+.single-service-item.full-height .service-content p {
+	margin-top: 30px;
+}
+
+.single-service-item {
+	background: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+	max-height: 250px;
+	height: 190px;
+}
+
+.service-content p {
+	color: #003351;
+	line-height: 1.5;
+}
+
+.service-content h3 {
+	font-size: 18px;
+	position: relative;
+	padding-left: 45px;
+	color: #003351;
+}
+
+.service-icon-2 i.fa {
+	position: absolute;
+	color: #fff;
+	background: #56AEE3;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	top: 25px;
+}
+
+.boxed-btn.readmore {
+	margin: 0;
+	background: #fff;
+	color: #003351;
+	padding: 0;
+	padding-bottom: 0px;
+	border-bottom: 5px solid #FF8800;
+	border-radius: 0;
+}
+
+
+/*****************************
+	Testimonial CSS
+*****************************/
+
+.testimonial {
+	background: #56AEE3;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.single-testimonial-item h4 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.single-testimonial-item i.fa {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+
+/*************************
+	Portfolio CSS
+*************************/
+
+.pricing-titles li {
+	display: block;
+	position: relative;
+	width: auto;
+	margin: 0;
+	color: #003351;
+	font-family: 'UTMAvoBold';
+	font-weight: 300;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.pricing-titles li.open {
+	position: relative;
+}
+
+.pricing-titles li.open:before {
+	position: absolute;
+	content: '';
+	height: 5px;
+	width: 100px;
+	bottom: 0;
+	background: #FF8800;
+}
+
+.single-pricing-box {
+	background: #efefef;
+	padding: 40px 20px;
+	color: #003351;
+}
+
+.price-head {
+	text-align: center;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #fff;
+}
+
+.single-pricing-box .boxed-btn {
+	margin: 0;
+}
+
+.price-count {
+	font-size: 40px;
+	position: relative;
+	font-family: 'UTMAvoBold';
+	margin-left: -52px;
+}
+
+.price-count::before {
+	position: absolute;
+	content: '';
+	right: 60px;
+	bottom: 15px;
+	height: 1px;
+	width: 65px;
+	background: #008CE6;
+	transform: rotate(-45deg);
+}
+
+.price-count:after {
+	position: absolute;
+	content: 'month';
+	font-family: 'UTMAvo';
+	font-size: 20px;
+	bottom: -15px;
+	right: 30px;
+}
+
+.price-content-list {
+	padding: 50px 0;
+	overflow: hidden;
+}
+
+.price-content-list span {
+	float: right;
+	font-family: ;
+	font-family: 'UTMAvoBold';
+	font-weight: 300;
+}
+
+.price-content-list li {
+	line-height: 30px;
+}
+
+.single-pricing-box.active {
+	background: #56AEE3;
+	color: #fff;
+	position: relative;
+}
+
+.single-pricing-box.active .price-count:before {
+	background: #fff;
+}
+
+.single-pricing-box.active:after {
+	position: absolute;
+	content: 'New hosting';
+	color: #fff;
+	font-size: 13px;
+	font-family: 'UTMAvoBold';
+	font-weight: 300;
+	right: 0;
+	top: 0;
+	background: #FF8800;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	line-height: 26px;
+	transition: ;
+	transform: rotate(90deg);
+	margin-right: -45px;
+	margin-top: 45px;
+}
+
+.single-pricing-box.active .boxed-btn {
+	background-color: #FF8800;
+	color: #fff;
+	border: 0;
+}
+
+.plan-btn {
+	width: 100%;
+	text-align: center;
+}
+
+
+/************************
+	Logo Brand CSS
+************************/
+
+.logo-area {
+	background: #2E3B4E;
+	padding: 15px 0;
+	border-bottom: 1px solid #efefef;
+}
+
+.logo-area p a {
+	color: #fff;
+	padding-left: 10px;
+	font-size: 15px;
+	line-height: 50px;
+}
+
+.single-logo-item {
+	padding: 10px;
+}
+
+.single-logo-item p {
+	margin: 0;
+}
+
+.single-logo-item p i.fa {
+	font-size: 22px;
+	color: #fff;
+}
+
+
+/************************
+	Footer Area CSS
+************************/
+
+.footer-area,
+.copyright-area {
+	background: #2E3B4E;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.footer-area a {
+	color: #fff;
+}
+
+.footer-content {
+	padding: 40px 0;
+}
+
+.footer-content li {
+	padding-bottom: 15px;
+}
+
+.address span {
+	padding-right: 25px;
+}
+
+.copyright-area {
+	padding: 25px 0;
+}
+
+.copyright-area p {
+	margin: 0;
+}
+
+.footer-header {
+	font-weight: 300;
+	position: relative;
+	padding-bottom: 18px;
+}
+
+.footer-header:before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	background: #FF8800;
+	height: 5px;
+	width: 60px;
+}
+
+.email-subscribe input[type=email],
+.email-subscribe input[type=text] {
+	width: 100%;
+	border: 0;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background: #4D5868;
+	color: #fff;
+}
+
+.email-subscribe input[type=submit] {
+	border: 0;
+}

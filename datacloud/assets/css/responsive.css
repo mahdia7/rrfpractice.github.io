@@ -1,0 +1,378 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.hero-content h2 {
+		font-size: 36px;
+	}
+	.hero-content {
+		font-size: 17px;
+	}
+	.price-content-list li {
+		font-size: 13px;
+	}
+	.absolute-img {
+		max-height: 480px;
+		top: -17px;
+	}
+	.service-after:after {
+		transform: rotate(0deg);
+		top: -20px;
+		left: 50%;
+		margin-left: -20px;
+	}
+	.absolute-img2 {
+		left: -50px;
+	}
+	.single-pricing-box {
+		margin-right: 10px;
+	}
+	.single-service-item {
+		height: 210px;
+	}
+	.single-service-item.full-height {
+		margin-left: 0;
+		height: auto;
+		padding-left: 80px;
+	}
+	.single-service-item.full-height:before {
+		width: 450px;
+	}
+	.logo {
+		padding: 10px 0;
+	}
+	.main-menu {
+		margin-top: 19px;
+	}
+	.main-menu li a {
+		font-size: 12px;
+	}
+	.header-area .container {
+		max-width: 1200px;
+	}
+	.header-area .col-md-3 {
+		padding: 0;
+	}
+	.contact-no p {
+		margin: 0;
+		font-size: 17px;
+		line-height: 1.3;
+	}
+	.contact-no p i.fa {
+		margin: 0;
+		font-size: 45px;
+		top: 8px;
+	}
+	.contact-no:before,
+	.contact-no:after {
+		height: 63px;
+		left: -12px;
+	}
+	.search-btn {
+		margin: 10px;
+	}
+	.contact-no:after {
+		right: 60px;
+		left: auto;
+	}
+	.main-menu li {
+		padding-bottom: 20px;
+	}
+	.row.pricing-list .col-md-4 {
+		padding: 0;
+	}
+	.hero-content h2 {
+		font-size: 36px;
+	}
+	.hero-content {
+		font-size: 17px;
+	}
+	.service-after:after {
+		transform: rotate(0deg);
+		top: -20px;
+		left: 50%;
+		margin-left: -20px;
+	}
+	.absolute-img2 {
+		left: -50px;
+	}
+	.single-pricing-box {
+		margin-right: 10px;
+	}
+	.single-service-item {
+		height: 210px;
+	}
+	.single-service-item.full-height {
+		margin-left: 0;
+		height: auto;
+		padding-left: 80px;
+	}
+	.single-service-item.full-height:before {
+		width: 450px;
+	}
+	.row.pricing-list .col-md-4 {
+		padding: 0;
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#mobile-menu-wrap {
+		display: block;
+	}
+	.single-logo-item {
+		text-align: center;
+	}
+	.header-area {
+		display: none;
+	}
+	.hero-content h2 {
+		font-size: 28px;
+	}
+	.hero-content {
+		font-size: 16px;
+	}
+	.boxed-btn {
+		margin: 0;
+		padding: 10px 22px;
+		margin-top: 30px;
+	}
+	.absolute-img {
+		height: 450px;
+		top: 15px;
+	}
+	.service-after:after {
+		right: 0;
+	}
+	.cta-area p {
+		padding: 0;
+	}
+	.cta-area .col-sm {
+		text-align: center;
+	}
+	.cta-area .boxed-btn {
+		margin-top: 8px;
+	}
+	.single-service-box {
+		height: auto;
+		max-height: 250px;
+	}
+	.absolute-img2 {
+		display: none;
+	}
+	.project-titles {
+		text-align: center;
+	}
+	.project-titles li {
+		font-size: 13px;
+	}
+	.section-title h3 {
+		font-size: 22px;
+	}
+	.section-title {
+		font-size: 11px;
+	}
+	.single-service-item {
+		padding: 10px;
+		height: 242px;
+	}
+	.single-service-item.full-height {
+		height: 470px;
+		padding: 30px;
+		margin: 0;
+		text-align: center;
+		margin-top: 60px;
+	}
+	.single-service-item.full-height:before {
+		top: 0;
+		left: 0;
+		width: 100%;
+		transform: rotate(0deg);
+		font-size: 25px;
+		margin-top: -60px;
+		margin-left: 0;
+	}
+	.service-icon-2 i.fa {
+		position: relative;
+		text-align: center;
+		margin: 0;
+		top: 0;
+	}
+	.service-icon-2 {
+		width: 100%;
+		text-align: center;
+	}
+	.service-content h3 {
+		padding: 0;
+		text-align: center;
+		margin-top: 8px;
+	}
+	.service-content p {
+		text-align: center;
+		line-height: 1.4;
+	}
+	#pricing .container,
+	.footer-area .container,
+	#service .container,
+	.copyright-area .container {
+		max-width: 960px;
+	}
+	.row.pricing-list .col-md-4 {
+		padding: 0;
+	}
+	.price-count:before {
+		right: 47px;
+	}
+	.price-count:after {
+		right: 20px;
+	}
+	.price-content-list li {
+		font-size: 12px;
+	}
+	.plan-btn .boxed-btn {
+		font-size: 14px;
+	}
+	.mobile-logo {
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		right: 83%;
+	}
+	.mobile-logo a {
+		color: #fff;
+	}
+	.mobile-logo h4 {
+		font-size: 20px;
+		margin-bottom: 0;
+		margin-top: 8px;
+	}
+	.slicknav_btn {
+	margin-right: 30px;
+}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.slicknav_btn {
+	margin-right: 30px;
+}
+	.mobile-logo {
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		right: 60%;
+	}
+	.mobile-logo a {
+		color: #fff;
+	}
+	.mobile-logo h4 {
+		font-size: 20px;
+		margin-bottom: 0;
+		margin-top: 8px;
+	}
+	#mobile-menu-wrap {
+		display: block;
+	}
+	.single-logo-item {
+		text-align: center;
+	}
+	.header-area {
+		display: none;
+	}
+	.absolute-img {
+		display: none;
+	}
+	.hero-area {
+		height: auto;
+		padding: 50px 0;
+		text-align: center;
+	}
+	.hero-content h2 {
+		font-size: 25px;
+	}
+	.hero-content {
+		font-size: 14px;
+	}
+	.boxed-btn {
+		font-size: 12px;
+		margin: 0;
+		padding: 10px 25px;
+	}
+	.cta-area {
+		text-align: center;
+	}
+	.cta-area p {
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	.cta-area .text-right {
+		text-align: center !important;
+	}
+	.absolute-img2 {
+		display: none;
+	}
+	.service-after:after {
+		font-size: 20px;
+		transform: rotate(0deg) !important;
+		top: -15px;
+		left: 10px;
+	}
+	.project-titles {
+		text-align: center;
+	}
+	.section-title {
+		text-align: center;
+	}
+	.single-service-item.full-height {
+		margin-left: 0;
+		height: auto;
+		padding: 20px;
+		padding-top: 50px;
+	}
+	.single-service-item.full-height:before {
+		transition: ;
+		transform: rotate(0deg);
+		top: 0;
+		left: 0;
+		height: auto;
+		width: 100%;
+		font-size: 25px;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+	.single-service-box {
+		margin-bottom: 20px;
+	}
+	.testimonial {
+		font-size: 16px;
+	}
+	.pricing-titles {
+		text-align: center;
+	}
+	.single-pricing-box {
+		margin-bottom: 20px;
+	}
+	.section-padding.footer-area {
+		text-align: center;
+		padding: 50px 0;
+	}
+	.footer-header {
+		text-align: left;
+		margin-top: 30px;
+	}
+	.copyright-area {
+		text-align: center;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.cta-area .boxed-btn {
+		margin-top: 25px;
+	}
+}
