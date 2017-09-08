@@ -1,0 +1,148 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Roboto:300,400,500,700');
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+a {
+	transition: .3s;
+	color: #333;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: 0 solid;
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.7;
+	color: #999;
+	font-family: 'Roboto', sans-serif;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.food-box-bg1 {
+	background-image: url(../img/item-1.jpg);
+}
+
+.food-box-bg2 {
+	background-image: url(../img/item-2.jpg);
+}
+
+.food-box-bg3 {
+	background-image: url(../img/item-3.jpg);
+}
+
+.food-box-bg {
+	background-position: center center;
+	background-size: cover;
+	background-color: #ddd;
+	background-repeat: no-repeat;
+	height: 320px;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.food-box-info {
+	background: #F3F4F4;
+	text-align: center;
+	padding: 35px;
+	margin: 0 20px;
+	margin-top: -65px;
+	border-top: 4px solid #D19735;
+	transition: .3s;
+}
+
+.food-box-info h3 {
+	font-family: 'Herr Von Muellerhoff', sans-serif;
+	font-size: 55px;
+	color: #000;
+	transition: .3s;
+}
+
+.food-box-info h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #D19735;
+	transition: .3s;
+}
+
+.food-box-info .food-price {
+	color: #000;
+	font-weight: 600;
+	transition: .3s;
+}
+
+.food-box-info .food-price span {
+	font-size: 200%;
+}
+
+.bordered-btn {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #D19735;
+	border: 1px solid #D19735;
+	padding: 10px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: .3s;
+}
+
+.bordered-btn:hover {
+	background: #000;
+	border: 1px solid #000 !important;
+	color: #fff;
+}
+
+.single-food-box:hover h3 {
+	color: #FEFD00;
+}
+
+.single-food-box:hover .food-box-info {
+	background: #D19735;
+}
+
+.single-food-box:hover h2,
+.single-food-box:hover .food-price {
+	color: #fff;
+}
+
+.single-food-box {
+	transition: .3s;
+}
+
+.single-food-box:hover .bordered-btn {
+	border-color: #fff;
+	color: #fff;
+}
