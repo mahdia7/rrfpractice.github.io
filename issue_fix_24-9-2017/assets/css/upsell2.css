@@ -1,0 +1,131 @@
+h2.offer-title {
+	text-align: center;
+	background: #E91E63;
+	padding: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.offer-header h2 {
+	text-align: center;
+	margin-bottom: 55px;
+	color: #fff;
+	background: #FF6400;
+	padding: 24px 0;
+}
+
+.offer-details h3 {
+	font-size: 35px;
+	font-weight: 300;
+}
+
+.offer-details .price {
+	font-size: 70px;
+	font-weight: 700;
+	color: #13908A;
+}
+
+.offer-details span {
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.offer-details .dismiss {
+	margin: 20px 0;
+	font-size: 17px;
+	color: #333;
+	text-decoration: underline;
+	font-weight: 300;
+	display: inline-block;
+}
+
+.btn-upsell2 {
+	font-size: 35px;
+	color: #fff;
+	background: #FF6400;
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 5px;
+	font-weight: 700;
+}
+
+.btn-upsell2:hover {
+	color: #fff;
+	background: #FF9532;
+}
+
+.checkoutbtnmobile {
+	display: none;
+}
+
+@media only screen and (max-width: 526px) {
+	.btn.btn-upsell2 {
+		font-weight: 400;
+		font-size: 22px;
+	}
+	.offer-details .price {
+		font-size: 44px;
+	}
+	.display-3 {
+		font-size: 3.15rem;
+		text-align: center;
+	}
+	.table td,
+	.table th {
+		font-size: 12px;
+		padding: 10px;
+	}
+	.btn.hiddenmobile {
+		display: none;
+	}
+	.btn.shownmobile {
+		font-size: 22px;
+		padding: 20px 15px;
+		font-weight: 600;
+	}
+	.btn.shownmobile i.fa {
+		font-size: 29px;
+		-webkit-transition: .3s;
+		transition: .3s;
+		-webkit-animation: arrow-right .8s ease-in-out 0s infinite normal none running;
+		animation: arrow-right .8s ease-in-out 0s infinite normal none running;
+	}
+	.checkoutbtnmobile {
+		display: block;
+	}
+	
+	@-webkit-keyframes arrow-right {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		50% {
+			-webkit-transform: translateX(10px);
+			transform: translateX(10px);
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+	}
+	@keyframes arrow-right {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		50% {
+			-webkit-transform: translateX(10px);
+			transform: translateX(10px);
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+	}
+}

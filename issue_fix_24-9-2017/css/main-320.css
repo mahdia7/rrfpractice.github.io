@@ -1,0 +1,1303 @@
+
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+
+
+
+
+
+
+
+/* Mobile Layout: 480px and below. */
+body{
+	background:#fff;
+	}
+.gridContainer {
+	width:100%;
+	padding-left:0;
+	padding-right:0;
+	max-width:640px;
+	margin:0 auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	}
+
+div#topsection{
+	display:none;
+	}
+div#section1{
+	background:none;
+	height:auto;
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	}
+.sec1left, .sec1rgt{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	}			
+.sec1leftimg{
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+}
+
+.sec1rgt{
+	background:none;
+}
+/*---form------*/
+.form{	
+	width:98%;	
+	margin:0 auto 0 auto;
+	background:none;
+	display:table;
+	border:5px solid #277F00;
+	}
+.formtop{
+	height:auto;
+	display:block;	
+	}
+.formtopimg-320{
+	margin:0 auto 0 auto;
+	display:block;
+	padding-top:0;
+	width:100%;	
+	}
+.formtopimg{
+	display:none;
+	}																						
+.formmid{
+	height:auto;
+	padding:1% 0 0 0;
+	margin:0 0 0 0;
+	background:url(../images/frmmid-640.png) center top repeat-y;
+	background-size:100%;		
+	}
+.formbtmimg, .formbtmimg-768{
+	display:none;	
+	}	
+.formbtmimg-320{
+	display:block;
+	margin:1% auto 1% auto;
+	width:88.84%;
+	}	
+		
+.formbtm{
+	height:auto;
+	display:block;
+	}	
+.formbtmimg-320{
+	display:block;
+	margin:1% auto 2% auto;
+	width:77.77%;
+	}				
+.formbtmimg, .formbtmimg-480, .formbtmimg-768{
+	display:none;
+	}			
+.frmfields {
+	margin:2% 0 0 0;
+	clear:both;
+	}
+.frmfields label, .frmfields input, .frmfields select{
+	float:left;
+	display:inline-block;
+	}		
+.frmfields label {
+	width:31%;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#034256;
+	text-align:right;
+	margin-right:3%;		
+	}
+.frmfields input {
+	width:55%;		
+	outline:none;
+	border-radius:5px;
+	border:1px solid #CCC;			
+	font-family:arial;
+	font-size:20px;
+	padding:2% 2% 2% 2%;		
+	}
+.frmfields select {
+	width:58.5%;
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:20px;	
+	border:1px solid #CCC;
+	padding:2% 2% 2% 2%;
+	border-radius:5px;
+	outline:none;
+	}
+#submit-btn {
+	width:81.15%;
+	display:block;
+	margin:5% auto 0 auto;	
+	}			
+.submit {		
+	width:100%;
+	border:none;	
+	cursor:pointer;	
+	height:auto;
+	}
+.lock-320{
+	margin:2% auto 2% auto;
+	display:block;
+	clear:both;
+}		
+.lock{	
+	display:none;	
+}	
+/*Form end*/
+/* ------------- start section2 ------------------ */
+div#section2{		
+	margin:0 0 0 0;
+	background:none;
+	height:auto;	
+	}
+.sec2inner{
+	height:auto;
+	background:none;
+	width:98.43%;
+	margin:2% auto 0 auto;
+	}
+.sec2txt1{
+	font-family: 'Open Sans', Arial;
+	font-size:40px;
+	color:#0a7e01;
+	text-transform:uppercase;
+	text-shadow:1px 1px #CCC;
+	line-height:40px;	
+	margin:0;
+	padding:2% 0 0 2%;
+}
+.sec2txt1 span{
+	color:#e88613;
+}
+.sec2txt2{
+	font-family: 'Open Sans', Arial;
+	font-size:24px;
+	color:#4c8154;		
+	line-height:30px;	
+	margin:0;
+	padding:15px 0 10px 2%;
+	font-style:italic;
+}
+.sec2txt3{
+	font-family: 'Open Sans', Arial;
+	font-size:22px;
+	color:#616161;
+	line-height:30px;
+	margin:0;
+	padding:1% 2% 0 2%;	
+}
+.sec2btmimg{
+	width:100%;
+	margin:3% auto 0 auto;
+	display:block;
+}
+/* ------------- end section2 ---------- */
+/* start 640 extra section	*/
+.mobexsec1{
+	display:block;
+	margin:0 auto;
+	padding:0;
+}
+.mobexsec1btn{
+	width:80%;
+	margin:0% auto 6% auto;
+	display:block;
+}
+/* end 640 extra section	*/
+/* ------------- start section3 ---------- */
+div#section3{	
+	height:auto;
+	margin:0 auto 0 auto;
+	background:url(../images/sec3bg.jpg) left top repeat;	
+	display:block;
+	width:100%;	
+	}
+.sec3inner{	
+	background:none;	
+	}	
+.sec3lft, .sec3rgt{
+	width:100%;
+	height:auto;
+	clear:both;
+}
+.sec3lft{
+	width:78.12%;
+	margin:4% 0 0 1%;
+	background:#fff;
+}
+.sec3lfttxt1{
+	width:100%;	
+	font-family: 'OpenSansBold';
+	font-size:40px;
+	color:#0a7e01;
+	text-align:left;
+	text-transform:uppercase;
+	text-shadow:1px 1px #CCC;
+	line-height:40px;	
+	margin:0;
+	padding:2% 0 0 2%;
+}
+.sec3lfttxt1 span{
+	color:#e88613;
+}
+.sec3lfttxt2{
+	font-family: 'OpenSansSemibold';
+	font-size:23px;
+	line-height:23px;
+	text-align:left;
+	font-style:italic;
+	color:#4c8154;
+	width:100%;
+	padding:1% 0 3% 2%;
+	margin:0;	
+}
+.sec3lfttxt3{
+	font-family: 'OpenSansRegular';
+	font-size:22px;
+	color:#616161;
+	text-align:left;
+	line-height:24px;
+	margin:0;
+	padding:3% 0 4% 2%;
+	width:90%;
+	position:relative;
+}
+.sec3lfttxt3 span{
+	font-family: 'OpenSansSemibold';
+	font-size:23px;
+	line-height:27px;
+	text-align:left;	
+	color:#0fafa2;
+}
+.imgone, .imgtwo, .imgthree{
+	position:absolute;
+	left:58%;
+	top:-40%;
+	width:79%;
+	display:block;
+}
+.imgtwo
+{
+	width:93%;
+	left:44%;
+	top:-27%;
+}
+.imgthree{
+	width:69%;
+	left:67%;
+	top:-37%;
+}
+.sec3rgtbtl{
+	display:block;
+	margin:0 auto;
+	width:100%;
+}
+.sec3rgtbtn{
+	margin:2px  auto 1% auto;
+	display:block;
+	width:80%;
+}
+/* ------------- end section3 ---------- */	
+
+/* ------------- start section4 ---------- */
+div#section4{
+	background:url(../images/section4-640.jpg) center top no-repeat;
+	background-size:100%;	
+	height:auto;
+	margin:0 auto 0 auto;
+	display:block;
+	width:100%;	
+	}
+.sec4inner{
+	background:none;
+	height:auto;
+	width:100%;	
+}
+.sec4hding{
+	font-family: 'OpenSansBold';
+	font-size:38px;
+	color:#4a8b1a;
+	text-align:center;
+	line-height:38px;
+	margin:0;
+	padding:1% 0 2% 0;
+	text-transform:uppercase;
+	text-shadow:1px 1px #CCC;
+}
+.sec4hding span{
+	color:#e88613;
+}
+ul.sec4list2{
+	padding:8% 0 7% 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 35% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 50% 0;	
+}
+ul.sec4list2 li.l2{
+	margin:0 0 41% 0;
+	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 13% 0;	
+}
+.listhding1, .listhding2, .listhding3{
+	font-family: 'OpenSansBold';
+	font-size:36px;
+	line-height:20px;
+	text-align:left;
+	padding:5% 1% 0 0;
+	margin:0;
+	color:#fff000;
+	text-transform:uppercase;
+}
+
+.listtxt{
+	font-family: 'OpenSansRegular';
+	font-size:19px;
+	color:#fff;
+	text-align:left;
+	line-height:23px;
+	padding:7% 1% 0 0;
+	margin:0;
+}
+.listtxt span{
+	font-size:21px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+/* ------------- end section4 ---------- */	
+/* ------------- start section5 ---------- */
+div#section5{
+	background:none;
+	height:auto;
+	margin:0 auto 0 auto;
+	display:block;
+	}
+.sec5inner{
+	background:none;
+	height:auto;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+}
+.sec5hding{
+	font-family: 'OpenSansBold';
+	font-size:40px;
+	color:#4a8b1a;
+	text-align:left;
+	line-height:40px;
+	margin:0;
+	padding:2% 1% 0 1%;
+	text-transform:uppercase;
+	text-shadow:1px 1px #CCC;
+}
+.sec5hding span{
+	color:#e88613;
+}
+.sec5txt{
+	font-family: 'OpenSansRegular';
+	font-size:22px;
+	line-height:28px;
+	color:#616161;
+	text-align:left;
+	padding:2% 1% 0 1%;
+	margin:0;
+}
+.sec5man{
+	width:48.59%;
+	float:right;
+	margin:0 0 0 2%;
+	display:block;
+}
+.sec5btmimg{
+	width:100%;
+	display:block;
+	margin:2% auto;
+}
+.sec5btn{
+	margin:2px  auto 1% auto;
+	display:block;
+	width:80%;
+}
+/* ------------- start section5 ---------- */
+/* ------------- start section6 ---------- */	
+div#section6{
+	background:none;
+	height:auto;
+	display:block;
+	}
+.sec6inner{
+	background:none;
+	height:auto;	
+	margin:0 0 0 0;
+	padding:0;
+}
+.sec6hding, .sec6txt1, .sec6txt2, .sec6txt3{
+	display:none;
+}
+.sec6img{
+	width:100%;
+	margin:0 auto;
+	display:block;
+}
+
+					
+/* ------------- end section6 ---------- */
+/* ------start section7---------- */
+div#section7{
+	display:none;
+	}
+
+/* ------end section7---------- */
+/*-------- start section8 ------- */
+div#section8{
+	background:none;
+	width:100%;
+	height:auto;
+	margin-left:0;
+	display:block;
+}
+.sec8inner{
+	background:none;
+	width:100%;	
+	height:auto;
+}
+.sec8img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+.sec8btn{
+	margin:0 auto 3% auto;
+	display:block;
+	width:80%;
+}
+/*------------- end section8---------*/
+/* ------------ start section9 ------------- */
+div#section9{
+	background:none;
+	width:100%;
+	height:auto;
+	margin-left:0;
+	display:block;
+	clear:both;	
+}
+.ftrtxt1, .ftrtxt2{
+	font-family: 'OpenSansRegular';
+	font-size:14px;
+	color:#3f3f3f;	
+	text-align:center;
+	line-height:16px;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+.ftrtxt1 a, .ftrtxt1 a:hover{
+	color:#3f3f3f;
+	text-decoration:none;
+}
+.ftrtxt2{
+	text-transform:none;
+	font-size:12px;
+	padding:5% 2% 0 2%;
+	color:#949494;
+}
+/* ----------- end section9 -------------- */
+
+										
+
+/*@media only screen and (min-width: 320px) {*/
+@media (min-width:320px) and (max-width:359px) {
+.form{	
+	border:3px solid #ffde00;
+	}
+.frmfields label {	
+	font-size:14px;		
+	}
+.frmfields input {	
+	font-size:12px;
+	}
+.frmfields select {	
+	font-size:14px;
+	}		
+/* --------- start section2 ------------- */
+.sec2txt1{	
+	font-size:25px;	
+	line-height:25px;		
+}
+.sec2txt2{	
+	font-size:16px;		
+	line-height:21px;
+}
+.sec2txt3{
+	font-size:13px;	
+	line-height:18px;	
+}
+/* ------------- end section2 ----------- */
+/* start section3 */
+.sec3lfttxt1{	
+	font-size:25px;	
+	line-height:25px;
+}
+.sec3lfttxt2{	
+	font-size:13px;
+	line-height:13px;	
+}
+.sec3lfttxt3{	
+	font-size:13px;	
+	line-height:15px;	
+}
+.sec3lfttxt3 span{	
+	font-size:13px;
+	line-height:17px;
+}
+.imgone, .imgtwo, .imgthree{
+	position:absolute;
+	left:64%;
+	top:-24%;
+	width:73%;
+	display:block;
+}
+.imgtwo
+{
+	width:87%;
+	left:50%;
+	top:-15%;
+}
+.imgthree{
+	width:63%;
+	left:73%;
+	top:-22%;
+}									
+/* end section3 */	
+/* start section4 */
+.sec4hding{	
+	font-size:20px;	
+	line-height:20px;	
+	padding:1% 0 5% 0;	
+}
+ul.sec4list2{
+	padding:0 0 0 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 56% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 31% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 23% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 10% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:16px;
+	line-height:16px;	
+	padding:8% 1% 0 0;	
+}
+.listtxt{	
+	font-size:12px;	
+	line-height:12px;
+	padding:4% 1% 0 0;	
+}
+.listtxt span{
+	font-size:10px;	
+}
+/* end section4*/
+/* start section5 */
+.sec5hding{	
+	font-size:20px;	
+	line-height:20px;	
+}
+.sec5txt{	
+	font-size:14px;
+	line-height:18px;	
+}
+/* end section5 */
+/* ------------ start section9 ------------- */
+.ftrtxt1, .ftrtxt2{	
+	font-size:10px;	
+	line-height:12px;	
+}
+.ftrtxt2{	
+	font-size:10px;
+}
+/* ----------- end section9 -------------- */
+}
+
+/*@media (min-width:360px) and (max-width:420px) {
+		
+}*/
+/*@media only screen and (min-width: 420px) {*/
+
+@media (min-width:360px) and (max-width:479px) {
+.form{	
+	border:3px solid #ffde00;
+	}
+.frmfields label {	
+	font-size:16px;		
+	}
+.frmfields input {	
+	font-size:14px;
+	}
+.frmfields select {	
+	font-size:14px;
+	line-height:25px;
+	}	
+/* --------- start section2 ------------- */
+.sec2txt1{	
+	font-size:25px;	
+	line-height:25px;		
+}
+.sec2txt2{	
+	font-size:17px;		
+	line-height:23px;
+}
+.sec2txt3{
+	font-size:14px;	
+	line-height:20px;	
+}
+/* ------------- end section2 ----------- */
+/* start section3 */
+.sec3lfttxt1{	
+	font-size:25px;	
+	line-height:25px;
+}
+.sec3lfttxt2{	
+	font-size:13px;
+	line-height:13px;	
+}
+.sec3lfttxt3{	
+	font-size:13px;	
+	line-height:15px;	
+}
+.sec3lfttxt3 span{	
+	font-size:13px;
+	line-height:17px;
+}
+.imgone, .imgtwo, .imgthree{
+	position:absolute;
+	left:58%;
+	top:-32%;
+	width:79%;
+	display:block;
+}
+.imgtwo
+{
+	width:93%;
+	left:44%;
+	top:-23%;
+}
+.imgthree{
+	width:69%;
+	left:67%;
+	top:-34%;
+}									
+/* end section3 */	
+/* start section4 */
+.sec4hding{	
+	font-size:24px;	
+	line-height:22px;	
+	padding:1% 0 6% 0;	
+}
+ul.sec4list2{
+	padding:0 0 0 52%;
+	margin:0;
+	width:46.56%;	
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 0 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 32% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 32% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 14% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:20px;
+	line-height:20px;	
+	padding:8% 1% 0 0;	
+}
+.listtxt{	
+	font-size:12px;	
+	line-height:14px;
+	padding:4% 1% 0 0;	
+}
+.listtxt span{
+	font-size:12px;	
+}
+/* end section4*/
+/* start section5 */
+.sec5hding{	
+	font-size:25px;	
+	line-height:25px;	
+}
+.sec5txt{	
+	font-size:17px;
+	line-height:23px;	
+}
+/* end section5 */	
+}
+@media (min-width:400px) and (max-width:479px) {
+	/* start section3 */
+.sec3lfttxt1{	
+	font-size:28px;	
+	line-height:28px;
+}
+.sec3lfttxt2{	
+	font-size:17px;
+	line-height:17px;	
+}
+.sec3lfttxt3{	
+	font-size:15px;	
+	line-height:17px;	
+}
+.sec3lfttxt3 span{	
+	font-size:15px;
+	line-height:19px;
+}
+.imgone, .imgtwo, .imgthree{
+	position:absolute;
+	left:58%;
+	top:-34%;
+	width:79%;
+	display:block;
+}
+.imgtwo
+{
+	width:93%;
+	left:44%;
+	top:-25%;
+}
+.imgthree{
+	width:69%;
+	left:67%;
+	top:-36%;
+}									
+/* end section3 */
+/* start section4 */
+.sec4hding{	
+	font-size:27px;	
+	line-height:27px;	
+	padding:1% 0 4% 0;	
+}
+ul.sec4list2{
+	padding:3% 0 0 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 56% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 32% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 26% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 20% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:21px;
+	line-height:20px;	
+	padding:2% 1% 0 0;	
+}
+.listtxt{	
+	font-size:14px;	
+	line-height:15px;
+	padding:5% 1% 0 0;	
+}
+.listtxt span{
+	font-size:14px;	
+}
+/* end section4*/	
+}
+@media (min-width:420px) and (max-width:479px) {
+/* start section4 */
+.sec4hding{	
+	font-size:27px;	
+	line-height:27px;	
+	padding:1% 0 4% 0;	
+}
+ul.sec4list2{
+	padding:3% 0 0 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 56% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 42% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 36% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 20% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:21px;
+	line-height:20px;	
+	padding:2% 1% 0 0;	
+}
+.listtxt{	
+	font-size:14px;	
+	line-height:15px;
+	padding:5% 1% 0 0;	
+}
+.listtxt span{
+	font-size:14px;	
+}
+/* end section4*/	
+}
+@media (min-width:520px) and (max-width:559px) {
+	/* start section4 */
+.sec4hding{	
+	font-size:25px;	
+	line-height:25px;	
+	padding:1% 0 8% 0;	
+}
+ul.sec4list2{
+	padding:2% 0 0 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 56% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 38% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 33% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 15% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:20px;
+	line-height:20px;	
+	padding:3% 1% 0 0;	
+}
+.listtxt{	
+	font-size:17px;	
+	line-height:20px;
+	padding:7% 1% 0 0;	
+}
+.listtxt span{
+	font-size:17px;	
+}
+/* end section4*/
+/* start section5 */
+.sec5hding{	
+	font-size:25px;	
+	line-height:25px;	
+}
+.sec5txt{	
+	font-size:17px;
+	line-height:23px;	
+}
+/* end section5 */	
+/* ------------- start section6 ---------- */	
+.sec6txt-640,.sec6txt2-640 {
+	font-size:13px;
+	line-height:15px;
+	}
+						
+/* ------------- end section6 ---------- */	
+/*-------- start section8 ------- */
+.sec8txt{	
+	font-size:13px;	
+	line-height:16px;	
+}
+/*------------- end section8---------*/
+}
+@media (min-width:480px) and (max-width:540px) {
+.frmfields label {	
+	font-size:20px;		
+	}
+.frmfields input {	
+	font-size:16px;
+	}
+.frmfields select {	
+	font-size:16px;
+	}
+/* --------- start section2 ------------- */
+.sec2txt1{	
+	font-size:30px;	
+	line-height:30px;		
+}
+.sec2txt2{	
+	font-size:17px;		
+	line-height:23px;
+}
+.sec2txt3{
+	font-size:17px;	
+	line-height:23px;	
+}
+/* ------------- end section2 ----------- */
+	/* start section3 */
+.sec3lfttxt1{	
+	font-size:28px;	
+	line-height:28px;
+}
+.sec3lfttxt2{	
+	font-size:17px;
+	line-height:17px;	
+}
+.sec3lfttxt3{	
+	font-size:17px;	
+	line-height:19px;	
+}
+.sec3lfttxt3 span{	
+	font-size:17px;
+	line-height:21px;
+}
+.imgone, .imgtwo, .imgthree{
+	position:absolute;
+	left:58%;
+	top:-34%;
+	width:79%;
+	display:block;
+}
+.imgtwo
+{
+	width:93%;
+	left:44%;
+	top:-25%;
+}
+.imgthree{
+	width:69%;
+	left:67%;
+	top:-36%;
+}									
+/* end section3 */	
+/* start section4 */
+.sec4hding{	
+	font-size:31px;	
+	line-height:31px;	
+	padding:1% 0 8% 0;	
+}
+ul.sec4list2{
+	padding:0 0 0 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 56% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 30% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 30% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 10% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:25px;
+	line-height:20px;	
+	padding:3% 1% 0 0;	
+}
+.listtxt{	
+	font-size:16px;	
+	line-height:19px;
+	padding:7% 1% 0 0;	
+}
+.listtxt span{
+	font-size:17px;	
+}
+/* end section4*/
+/* start section5 */
+.sec5hding{	
+	font-size:25px;	
+	line-height:25px;	
+}
+.sec5txt{	
+	font-size:16px;
+	line-height:22px;	
+}
+/* end section5 */	
+/* ------------- start section6 ---------- */	
+.sec6txt-640,.sec6txt2-640 {
+	font-size:15px;
+	line-height:17px;
+	}					
+/* ------------- end section6 ---------- */	
+/*-------- start section8 ------- */
+.sec8txt{	
+	font-size:14px;	
+	line-height:20px;	
+}
+
+/*------------- end section8---------*/
+}
+
+/*@media only screen and (min-width: 640px) {*/
+@media (min-width:500px) and (max-width:559px) {
+	/* start section3 */
+.sec3lfttxt1{	
+	font-size:30px;	
+	line-height:30px;
+}
+.sec3lfttxt2{	
+	font-size:18px;
+	line-height:18px;	
+}
+.sec3lfttxt3{	
+	font-size:18px;	
+	line-height:20px;	
+}
+.sec3lfttxt3 span{	
+	font-size:18px;
+	line-height:23px;
+}
+.imgone, .imgtwo, .imgthree{
+	position:absolute;
+	left:58%;
+	top:-32%;
+	width:79%;
+	display:block;
+}
+.imgtwo
+{
+	width:93%;
+	left:44%;
+	top:-23%;
+}
+.imgthree{
+	width:69%;
+	left:67%;
+	top:-34%;
+}									
+/* end section3 */
+/* start section4 */
+.sec4hding{	
+	font-size:31px;	
+	line-height:31px;	
+	padding:1% 0 8% 0;	
+}
+ul.sec4list2{
+	padding:0 0 0 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 56% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 30% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 30% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 10% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:30px;
+	line-height:20px;	
+	padding:3% 1% 0 0;	
+}
+.listtxt{	
+	font-size:17px;	
+	line-height:20px;
+	padding:7% 1% 0 0;	
+}
+.listtxt span{
+	font-size:17px;	
+}
+/* end section4*/
+/* start section5 */
+.sec5hding{	
+	font-size:30px;	
+	line-height:30px;	
+}
+.sec5txt{	
+	font-size:17px;
+	line-height:23px;	
+}
+/* end section5 */	
+}
+@media (min-width:520px) and (max-width:559px) {
+	/* start section4 */
+.sec4hding{	
+	font-size:31px;	
+	line-height:31px;	
+	padding:1% 0 8% 0;	
+}
+ul.sec4list2{
+	padding:2% 0 0 52%;
+	margin:0;
+	width:46.56%;
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 56% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 38% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 33% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 15% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:30px;
+	line-height:20px;	
+	padding:3% 1% 0 0;	
+}
+.listtxt{	
+	font-size:17px;	
+	line-height:20px;
+	padding:7% 1% 0 0;	
+}
+.listtxt span{
+	font-size:17px;	
+}
+/* end section4*/
+}
+@media (min-width:560px) and (max-width:619px) {
+/* start section3 */
+.sec3lfttxt1{	
+	font-size:34px;	
+	line-height:34px;
+}
+.sec3lfttxt2{	
+	font-size:20px;
+	line-height:20px;	
+}
+.sec3lfttxt3{	
+	font-size:20px;	
+	line-height:22px;	
+}
+.sec3lfttxt3 span{	
+	font-size:20px;
+	line-height:25px;
+}
+.imgone, .imgtwo, .imgthree{
+	position:absolute;
+	left:58%;
+	top:-36%;
+	width:79%;
+	display:block;
+}
+.imgtwo
+{
+	width:93%;
+	left:44%;
+	top:-28%;
+}
+.imgthree{
+	width:69%;
+	left:67%;
+	top:-38%;
+}									
+/* end section3 */
+/* start section4 */
+.sec4hding{	
+	font-size:34px;	
+	line-height:34px;	
+	padding:1% 0 8% 0;	
+}
+ul.sec4list2{
+	padding:1% 0 0 52%;
+	margin:0;
+	width:46.56%;	
+}
+ul.sec4list2 li{	
+	padding:0;
+	margin:0 0 39% 0;
+	width:100%;
+	list-style:none;
+}
+ul.sec4list2 li.l1{
+	margin:0 0 38% 0;
+}
+ul.sec4list2 li.l2{
+	margin:0 0 33% 0;	
+}
+ul.sec4list2 li.l3{
+	margin:0 0 15% 0;
+}
+.listhding1, .listhding2, .listhding3{	
+	font-size:30px;
+	line-height:20px;	
+	padding:5% 1% 0 0;	
+}
+
+.listtxt{	
+	font-size:18px;	
+	line-height:20px;
+	padding:7% 1% 0 0;	
+}
+.listtxt span{
+	font-size:18px;	
+}
+/* end section4*/
+}
+	
+

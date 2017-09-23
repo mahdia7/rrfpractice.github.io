@@ -1,0 +1,100 @@
+#upsell {
+    max-width: 900px;
+    margin: 0 auto;
+    /* margin-top: 60px; */
+    text-align: center;
+    cursor: pointer;
+}
+ 
+#wait p {
+    font-size: 20px;
+    text-align: center;
+}
+ 
+.f22 {
+    font-size: 22px;
+}
+ 
+.bl {
+    font-weight: bold;
+}
+ 
+.red {
+    color: red;
+}
+ 
+.f22 {
+    font-size: 22px;
+}
+ 
+.bl {
+    font-weight: bold;
+}
+ 
+#wait p {
+    margin-bottom: 7px;
+}
+ 
+.grey-2 {
+    color: #5a5a5a;
+}
+ 
+.f14 {
+    font-size: 14px;
+    line-height: 18px;
+}
+ 
+.f14 {
+    font-size: 14px;
+}
+ 
+#upsell a {
+    text-decoration: none;
+}
+ 
+#up-btn img:active {
+    -ms-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+}
+ 
+#decline {
+    /* width: 300px; */
+}
+ 
+#decline {
+    font-size: 12px;
+    margin: 35px auto;
+    /* width: 200px; */
+    text-decoration: underline;
+    text-align: center;
+}
+ 
+#upsell-btn {
+    background: url(../images/upsell.jpg);
+    background-repeat: no-repeat;
+    padding: 170px 0;
+    background-position: center center;
+}
+ 
+.wait {
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    color: red;
+    margin-bottom: 5px;
+}
+ 
+@media only screen and (max-width: 380px) {
+    #upsell-btn {
+        background-size: 100%;
+        padding: 100px 0;
+    }
+}
+@media only screen and (min-width: 381px) and (max-width: 767px) {
+    #upsell-btn {
+        background-size: 100%;
+        padding: 90px 0;
+        height: 240px;
+    }
+}
